@@ -3,14 +3,20 @@
     align-items: center;
     justify-content: space-between;
     color: white;
-    padding: 10px;
+    padding: 5px;
+}
+
+#login-button, #user-button {
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
 }
 
 #login-button {
     background-color: deepskyblue;
-    color: white;
-    padding: 5px 10px;
-    cursor: pointer;
+    padding: 10px 22px;
 }
 
 .header-section1 img {
@@ -24,29 +30,22 @@
     padding: 10px;
     background: #e3a917;
     justify-content: space-between;
-    width: 100%;
-    margin-bottom: 30px;
+    width: 100%;         /* Para que la línea amarilla llegue a ambos lados de la página */
+    margin-bottom: 50px;
 }
 
 .header-section2 nav {
     width: 100%;
-    margin-left: 60px;
-}
-
-.header-section2 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .header-section2 nav ul li {
     display: inline;
-    margin-right: 20px;
+    padding: 60px;
     font-weight: bold;
 }
 
 .header-section2 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
