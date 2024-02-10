@@ -59,11 +59,11 @@
     color: white;;
 }
 
-.driversHeader {
+.teamsHeader {
     text-align: center;
 }
 
-.piloto {
+.team {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px; /* Espacio entre cada contenedor */
