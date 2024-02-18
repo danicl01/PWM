@@ -1,91 +1,83 @@
 * {
-    font-family: "Inter";
+    margin:0;
 }
 
-.header-section1 {
+html {
+    height: 100%;
+}
+
+.header_section1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*background: #e3a917;*/
     color: white;
     padding: 5px;
 }
 
-#login-button, #user-button {
-    color: white;
-    margin-right: 20px;
+.header_logo {
+    margin: auto;
+}
+
+.header_button-login, .header_button-profile {
     cursor: pointer;
     border: none;
+}
+
+.header_button-login {
+    background-color: #0F969C;
+    padding: 10px 22px;
+    color: white;
+    margin-right: 20px;
     border-radius: 3px;
 }
 
-#login-button {
-    background-color: deepskyblue;
-    padding: 10px 22px;
+.header_button-profile {
+    background-color: white;
+    margin-right: 40px;
 }
 
-.header-section1 img {
-    margin-right: auto;
-}
-
-.header-section2 {
+.header_section2 {
     display: flex;
     align-items: center;
     color: white;
-    padding: 10px;
-    background: #e3a917;
+    background: #294D61;
     justify-content: space-between;
-    width: 100%;         /* Para que la línea amarilla llegue a ambos lados de la página */
     margin-bottom: 50px;
 }
 
-.header-section2 nav {
-    width: 100%;
+.header_heading {
+    margin-left: 5rem;
 }
 
-.header-section2 nav ul li {
-    display: inline;
+.nav {
+    width: 100%;    /* no borrar por ahora, mantiene el nav a la izquierda */
+}
+
+.nav_link {
+    display: inline-block;
     padding: 30px 60px;
     font-weight: bold;
 }
 
-.header-section2 nav ul li a {
-    color: black;
+.nav_link a {
+    color: white;
     text-decoration: none;
 }
 
-.header-section2 nav ul li:hover {
-    background-color: #232376;
-    color: white;;
+.nav_link:hover  {
+    background-color: #6DA5C0;
 }
 
-main {
+.nav_link:hover a {
+    color: #072E33;
+}
+
+
+.cover {
     display: flex;
     justify-content: space-between;
-}
-
-article {
-    width: 30%;
+    flex-direction: row;
     margin-bottom: 20px;
-}
-
-article:first-child {
-    width: 60%;
-}
-
-.article-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.article-container article {
-    width: 100%;
-}
-
-footer {
-    display: flex;
-    color: white;
-    background: linear-gradient(to right, #777777, #222222);
 }
 
 .contenedor {
@@ -105,4 +97,11 @@ footer {
     width: 100%;
     height: 100%;
     margin: auto;
+}
+
+footer {
+    vertical-align: bottom;
+    display: flex;
+    color: white;
+    background: linear-gradient(to right, #777777, #222222);
 }
