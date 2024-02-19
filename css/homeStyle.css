@@ -77,25 +77,29 @@ html {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 
 .main-zone-1 {
-    display: block;
-    width: 60%;
-    align-items: center;
-    justify-items: center;
-    vertical-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .main-zone-1 article {
-    align-content: center;
+    padding-bottom: 10px;
+    background-color: #0F969C;
 }
 
-.main-zone-1 img {
-    width: 60%;
-    height: 60%;
+.main-zone-1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-zone-1 h2 {
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
 }
 
 
