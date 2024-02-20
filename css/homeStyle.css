@@ -77,18 +77,27 @@ html {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 
 .main-zone-1 {
+    max-width: 100%;
+    width: auto;
     margin: 0 auto;
     text-align: center;
 }
 
 .main-zone-1 article {
+    max-width: 90%;
+    width: auto;
     padding-bottom: 10px;
     background-color: #0F969C;
+}
+
+.main-zone-1 img {
+    max-width: 100%;
+    width: auto;
 }
 
 .main-zone-1 a {
