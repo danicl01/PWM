@@ -23,10 +23,60 @@ html {
     text-decoration: none;
 }
 
-.main-zone-1 h2 {
+.main-zone-1 h1 {
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.main-zone-1 h3 {
     color: black;
     font-weight: bold;
     margin: 5px 0;
+    margin-bottom: 25px;
+}
+
+.main-zone-1 p {
+    margin-top: 25px;
+    margin-bottom : 25px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+.img-container {
+    display: flex;
+    margin-left: 100px;
+}
+
+.main-zone-2 {
+    margin-left: 200px;
+    max-width: 800px;
+}
+
+.article-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.article-2 h3 {
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.img-news-container {
+    display: flex;
+    margin-right: 700px;
+}
+
+.img-news-container img {
+    margin-right: 25px;
+}
+
+.img-news-container p {
+    white-space: nowrap;
 }
 
 footer {
