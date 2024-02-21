@@ -59,21 +59,3 @@ html {
     display: flex;
     flex-direction: row;
 }
-
-footer {
-    font-family:'Inter', sans-serif;
-    background: linear-gradient(to bottom, #294D61, #000000);
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.column {
-    width: 15%;
-}
-
-.footer_logo {
-    margin: 50px;
-    border-radius: 8px;
-}

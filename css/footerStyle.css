@@ -1,8 +1,30 @@
+* {
+    margin:0;
+}
+
+html {
+    height: 100%;
+}
+
 footer {
     font-family:'Inter', sans-serif;
     background: linear-gradient(to bottom, #294D61, #000000);
     color: white;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.column {
+    width: 15%;
+}
+
+.footer_logo {
+    margin: 50px;
+    border-radius: 8px;
+}
+
+#footer-container {
+    min-width   : 100%; /* o cualquier otra altura deseada */
+    min-height: 100%; /* o cualquier otra altura deseada */
 }
