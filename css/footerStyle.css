@@ -10,9 +10,18 @@ footer {
     font-family:'Inter', sans-serif;
     background: linear-gradient(to bottom, #294D61, #000000);
     color: white;
-    padding: 10px;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
+}
+
+footer h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 10px;
 }
 
 .column {
@@ -28,3 +37,4 @@ footer {
     min-width   : 100%; /* o cualquier otra altura deseada */
     min-height: 100%; /* o cualquier otra altura deseada */
 }
+
