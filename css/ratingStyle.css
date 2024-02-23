@@ -2,48 +2,39 @@
     margin:0;
 }
 
-html {
-    height: 100%;
-}
-
-.cover {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-bottom: 20px;
+body {
+    background-color: #d9dade;
 }
 
 .ranking-header {
-    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
 }
 
 .ranking-table {
-   display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center; /* centro el contenido de cada celda */
-    width: 100%;
-    margin: 50px 0;
+    text-align: center;
+    margin: 50px auto;
+    background-color: white;
+    max-width: 80%;
+    border-radius: 20px;
+    padding-bottom: 30px;
 }
+
 
 .ranking-table th, .ranking-table td {
     padding: 20px 60px;
     width: auto;
 }
 
-footer {
-    font-family:'Inter', sans-serif;
-    background: linear-gradient(to bottom, #294D61, #000000);
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+table, th, td {
+    border-collapse: collapse;
 }
 
-.column {
-    width: 15%;
-}
-
-.footer_logo {
-    margin: 50px;
-    border-radius: 8px;
+.odd {
+    background-color: #d7e7f7;
 }
