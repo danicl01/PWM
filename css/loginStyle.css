@@ -12,17 +12,21 @@ body {
     background-repeat: no-repeat;
 }
 
-main {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.main-zone-1 {
     padding: 20px;
     margin-top: 20vh;
     margin-left: 10vw;
 }
 
-main h1 {
-    margin-left: 60px;
+.main-zone-1 article {
+    background-color: #E0E0E0;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.main-zone-1 h1 {
+    margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
     font-weight: bold;
@@ -30,44 +34,43 @@ main h1 {
     color: #DFA40C;
 }
 
-main p {
+.main-zone-1 p {
     color: black;
     font-weight: bold;
 }
 
-.mensaje1 {
-    margin-left: 90px;
+.main-zone-1 .mensaje1 {
+    margin-left: 60px;
     margin-bottom: 15%;
 }
 
-.mensaje2 {
-    margin-left: 139px;
+.main-zone-1 .mensaje2 {
+    margin-left: 115px;
 }
 
-.mensaje3 {
-    margin-left: 90px;
+.main-zone-1 .mensaje3 {
+    margin-left: 60px;
 }
 
-.link {
+.main-zone-1 .link {
     color: blue;
-    margin-left: 165px;
-    
+    margin-left: 145px;
 }
 
-main label {
+.main-zone-1 label {
     font-weight: 600;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
-main input {
+.main-zone-1 input {
     width: 270px;
     height: 21px;
-    margin-left: 80px;
+    margin-left: 50px;
     border: 1px solid black;
     border-radius: 5px;
 }
 
-main input[type="submit"] {
+.main-zone-1 input[type="submit"] {
     width: 276px;
     height: 30px;
     margin-bottom: 10%;
@@ -76,10 +79,15 @@ main input[type="submit"] {
     background-color: #DFA40C;
 }
 
-main input[type="password"] {
+.main-zone-1 input[type="password"] {
     margin-bottom: 8%;
 }
 
-main input:focus {
+.main-zone-1 input:focus {
     background-color: #B3D4FF;
+}
+
+aside {
+    margin-top: 50vh;
+    margin-left: 10vw;
 }
