@@ -14,7 +14,7 @@
 }
 
 .main-zone-1 article {
-    max-width: 90%;
+    max-width: 100%;
     width: auto;
     padding-bottom: 10px;
     background-color: #0F969C;
@@ -38,6 +38,7 @@
 }
 
 .main-zone-2 {
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
 }
