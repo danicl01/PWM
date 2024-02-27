@@ -6,6 +6,10 @@ body {
     background-color: #d9dade;
 }
 
+main {
+    padding-bottom: 50px;
+}
+
 .ranking-header {
     font-size: 28px;
     margin-top: 20px;
