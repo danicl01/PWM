@@ -15,22 +15,22 @@ html {
 
 .calendarHeader {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
-.contenedor {
+.square-group {
     width: 1080px;
     height: 500px;
     margin: auto;
-    margin-bottom: 225px;
-
+    margin-bottom: 200px;
+    margin-left: 350px;
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(4, auto);
     gap: 25px;
 }
 
-.contenedor .square {
+.square-group .square {
     display: flex;
     background-color: #D9D9D9;
     border: 2px solid black;
@@ -40,9 +40,39 @@ html {
     overflow: hidden;
 }
 
+.square {
+    position: relative;
+    perspective: 1000px;
+}
+
 .square:hover {
     border-color: red;
     transition: border-color 0.3s ease;
+}
+
+.square:hover .square-content {
+    transform: rotateY(180deg);
+}
+
+.square-content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.back-content {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: white;
 }
 
 .square-content img {
