@@ -45,8 +45,8 @@
 
 .square {
     display: flex;
-    background-color: gray;
-    border: 2px solid black;
+    background-color: lightgray;
+    /*border: 2px solid black;*/
     border-radius: 5px;
     width: 650px;
     height: 225px;
@@ -54,8 +54,9 @@
 }
 
 .square:hover {
-    border-color: red;
-    transition: border-color 0.3s ease;
+    /*border-color: red;
+    transition: border-color 0.3s ease;*/
+    color:#666666;
 }
 
 .main-zone-2 article {
@@ -64,18 +65,21 @@
 }
 
 .main-zone-2 h2 {
-    font-size: 28px;
+    font-size: 24px;
+    color: red;
 }
 
 .main-zone-2 p {
-    margin-top: 12px;
+    font-size: 32px;
+    margin-top: 28px;
+    font-weight: bold;
 }
 
 .main-zone-3 article {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     border-radius: 5px;
     margin: 10px;
 }

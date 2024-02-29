@@ -39,6 +39,7 @@ html {
     max-width: 81%;
     padding: 21px 41px 21px 41px;
     font-size: 1.1em;
+    border-width: 3px;
 }
 
 .parrafo h2 {
