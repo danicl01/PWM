@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin: 0;
 }
 
 html {
@@ -27,21 +27,18 @@ header {
     margin: auto;
     margin-bottom: 100px;
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
 }
 
 .square-group .square {
     display: flex;
     background-color: #D9D9D9;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 5px;
+    box-shadow: 10px 10px 15px 5px;
     width: 270px;
     height: 200px;
-}
-
-.square {
     position: relative;
     perspective: 1000px;
 }
@@ -82,36 +79,32 @@ header {
     display: block;
 }
 
+.main-zone-1 p, .main-zone-2 p {
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 18px;
+}
+
+.main-zone-1 p {
+    background-color: #DFA40C;
+}
+
+.main-zone-2 p {
+    background-color: gray;
+}
+
 .main-zone-1 {
     width: 50%;
     height: 40%;
 }
 
-.main-zone-1 p {
-    border-radius: 3px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #DFA40C;
-    margin: 10px;
-    margin-left: 15px;
-    margin-top: 18px;
-}
-
 .main-zone-2 {
     width: 115%;
     height: 100%;
-}
-
-.main-zone-2 p {
-    border-radius: 3px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: gray;
-    margin: 10px;
-    margin-left: 15px;
-    margin-top: 18px;
 }
 
 footer {
