@@ -1,180 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <title>F1 Calendar</title>
-    <link rel="stylesheet" type="text/css" href="../css/ratingStyle.css">
-    <link rel="stylesheet" type="text/css" href="../css/headerStyle.css">
-    <link rel="stylesheet" type="text/css" href="../css/footerStyle.css">
-    <script src="../js/header.js" defer></script>
-    <script src="../js/footer.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div id="header-container"></div>
-  </header>
-  <main>
-    <div class="ranking-table">
-      <div class="ranking-header">
-        <h1>2023 RACE RESULTS</h1>
-      </div>
-      <table>
-        <thead>
-        <tr>
-          <th>Position</th>
-          <th>Driver</th>
-          <th>Nationality</th>
-          <th>Car</th>
-          <th>Points</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-          <td>1</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>3</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>5</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>7</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>8</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>9</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>10</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>11</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>12</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>13</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>14</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>15</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>16</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>17</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>18</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr class="odd">
-          <td>19</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        <tr>
-          <td>20</td>
-          <td>Max Verstappen</td>
-          <td>Netherlands</td>
-          <td>Red Bull Racing</td>
-          <td>345</td>
-        </tr>
-        </tbody>
-      </table>
+<head>
+  <meta charset="UTF-8">
+  <title>F1 Calendar</title>
+  <link rel="stylesheet" type="text/css" href="../css/ratingStyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/headerStyle.css">
+  <link rel="stylesheet" type="text/css" href="../css/footerStyle.css">
+  <script src="../js/header.js" defer></script>
+  <script src="../js/footer.js" defer></script>
+  <script src="../js/results2023_loadDataJsonFile.js" defer></script>
+</head>
+<body>
+<header>
+  <div id="header-container"></div>
+</header>
+<main>
+  <div class="ranking-table">
+    <div class="ranking-header">
+      <h1>2023 RACE RESULTS</h1>
     </div>
-  </main>
-  <footer>
-    <div id="footer-container"></div>
+    <table>
+      <thead>
+      <tr>
+        <th>Position</th>
+        <th>Driver</th>
+        <th>Team</th>
+        <th>Points</th>
+        <th>Wins</th>
+        <th>Podiums</th>
+        <th>Scores</th>
+        <th>Nationality</th>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</main>
+<footer>
+  <div id="footer-container"></div>
 </footer>
-  </body>
+</body>
 </html>

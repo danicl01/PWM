@@ -1,0 +1,222 @@
+[
+  {
+    "Position": 1,
+    "Driver": "Max Verstappen",
+    "Team": "Red Bull",
+    "Points": 575,
+    "Wins": 19,
+    "Podiums": 21,
+    "Scores": 22,
+    "Nationality": "Dutch"
+  },
+  {
+    "Position": 2,
+    "Driver": "Sergio Pérez",
+    "Team": "Red Bull",
+    "Points": 285,
+    "Wins": 2,
+    "Podiums": 9,
+    "Scores": 19,
+    "Nationality": "Mexican"
+  },
+  {
+    "Position": 3,
+    "Driver": "Lewis Hamilton",
+    "Team": "Mercedes",
+    "Points": 234,
+    "Wins": null,
+    "Podiums": 6,
+    "Scores": 20,
+    "Nationality": "British"
+  },
+  {
+    "Position": 4,
+    "Driver": "Fernando Alonso",
+    "Team": "Aston Martin",
+    "Points": 206,
+    "Wins": null,
+    "Podiums": 8,
+    "Scores": 19,
+    "Nationality": "Spanish"
+  },
+  {
+    "Position": 5,
+    "Driver": "Charles Leclerc",
+    "Team": "Ferrari",
+    "Points": 206,
+    "Wins": null,
+    "Podiums": 6,
+    "Scores": 16,
+    "Nationality": "Monegasque"
+  },
+  {
+    "Position": 6,
+    "Driver": "Lando Norris",
+    "Team": "McLaren",
+    "Points": 205,
+    "Wins": null,
+    "Podiums": 7,
+    "Scores": 16,
+    "Nationality": "British"
+  },
+  {
+    "Position": 7,
+    "Driver": "Carlos Sainz",
+    "Team": "Ferrari",
+    "Points": 200,
+    "Wins": 1,
+    "Podiums": 3,
+    "Scores": 18,
+    "Nationality": "Spanish"
+  },
+  {
+    "Position": 8,
+    "Driver": "George Russell",
+    "Team": "Mercedes",
+    "Points": 175,
+    "Wins": null,
+    "Podiums": 2,
+    "Scores": 17,
+    "Nationality": "British"
+  },
+  {
+    "Position": 9,
+    "Driver": "Oscar Piastri",
+    "Team": "McLaren",
+    "Points": 97,
+    "Wins": null,
+    "Podiums": 2,
+    "Scores": 11,
+    "Nationality": "Australian"
+  },
+  {
+    "Position": 10,
+    "Driver": "Lance Stroll",
+    "Team": "Aston Martin",
+    "Points": 74,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 12,
+    "Nationality": "Canadian"
+  },
+  {
+    "Position": 11,
+    "Driver": "Pierre Gasly",
+    "Team": "Alpine F1 Team",
+    "Points": 62,
+    "Wins": null,
+    "Podiums": 1,
+    "Scores": 11,
+    "Nationality": "French"
+  },
+  {
+    "Position": 12,
+    "Driver": "Esteban Ocon",
+    "Team": "Alpine F1 Team",
+    "Points": 58,
+    "Wins": null,
+    "Podiums": 1,
+    "Scores": 12,
+    "Nationality": "French"
+  },
+  {
+    "Position": 13,
+    "Driver": "Alexander Albon",
+    "Team": "Williams",
+    "Points": 27,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 7,
+    "Nationality": "Thai"
+  },
+  {
+    "Position": 14,
+    "Driver": "Yuki Tsunoda",
+    "Team": "AlphaTauri",
+    "Points": 17,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 6,
+    "Nationality": "Japanese"
+  },
+  {
+    "Position": 15,
+    "Driver": "Valtteri Bottas",
+    "Team": "Alfa Romeo",
+    "Points": 10,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 4,
+    "Nationality": "Finnish"
+  },
+  {
+    "Position": 16,
+    "Driver": "Nico Hülkenberg",
+    "Team": "Haas F1 Team",
+    "Points": 9,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 1,
+    "Nationality": "German"
+  },
+  {
+    "Position": 17,
+    "Driver": "Daniel Ricciardo",
+    "Team": "AlphaTauri",
+    "Points": 6,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 1,
+    "Nationality": "Australian"
+  },
+  {
+    "Position": 18,
+    "Driver": "Guanyu Zhou",
+    "Team": "Alfa Romeo",
+    "Points": 6,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 3,
+    "Nationality": "Chinese"
+  },
+  {
+    "Position": 19,
+    "Driver": "Kevin Magnussen",
+    "Team": "Haas F1 Team",
+    "Points": 3,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 3,
+    "Nationality": "Danish"
+  },
+  {
+    "Position": 20,
+    "Driver": "Liam Lawson",
+    "Team": "AlphaTauri",
+    "Points": 2,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 1,
+    "Nationality": "New Zealander"
+  },
+  {
+    "Position": 21,
+    "Driver": "Logan Sargeant",
+    "Team": "Williams",
+    "Points": 1,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 1,
+    "Nationality": "American"
+  },
+  {
+    "Position": 22,
+    "Driver": "Nyck de Vries",
+    "Team": "AlphaTauri",
+    "Points": null,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": null,
+    "Nationality": "Dutch"
+  }
+]

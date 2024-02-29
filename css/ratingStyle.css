@@ -31,7 +31,7 @@ main {
 
 
 .ranking-table th, .ranking-table td {
-    padding: 20px 60px;
+    padding: 20px 0 30px 0;
     width: auto;
 }
 
@@ -39,6 +39,10 @@ table, th, td {
     border-collapse: collapse;
 }
 
-.odd {
+.even {
     background-color: #d7e7f7;
+}
+
+.first-row {
+    background-color: #f2d45c;
 }
