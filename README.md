@@ -8,14 +8,16 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **HTML:**
   - **mockPage.html:** Página de muestra para enlaces temporales.
-  - **home.html:** Página principal del proyecto. 
+  - **homePage.html:** Página principal del proyecto. 
   - **registerPage.html:** Página para el registro de usuario.
+  - **confirmedRegisterPage.html:** Página para indicar que el registro se ha realizado correctamente.
   - **loginPage.html:** Página para inicio de sesión de usuario.
   - **calendarPage.html:** Página para el calendario de carreras.
   
 - **CSS:**
   - **homeStyle.css:** Archivo de estilo para la página principal.
   - **registerStyle.css:** Archivo de estilo para la página de registro.
+  - **confirmedRegisterStyle.css:** Archivo de estilo para la página de confirmación de registro.
   - **loginStyle.css:** Archivo de estilo para la página de inicio de sesión.
   - **calendarStyle.css:** Archivo de estilo para la página de calendario de carreras.
 
@@ -37,6 +39,11 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
  
 - **Main:**
   - Un artículo con varios inputs para proporcionar la información de registro.
+ 
+### Página de Confirmación de Registro (`confirmedRegisterPage.html`)
+ 
+- **Main:**
+  - Un artículo con una imagen y texto indicando que el usuario se ha registrado correctamente.
  
 ### Página de Inicio de Sesión  (`loginPage.html`)
  
