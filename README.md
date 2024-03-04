@@ -97,7 +97,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
  
-### Página de clasificación de pilotos(`driversPage.html`)
+### Página de información de pilotos(`driversPage.html`)
  
 - **Header:**
   - Sección 1 con logo y botones para registrarte e iniciar sesión.
@@ -110,7 +110,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
  
-### Página de clasificación de escuderías(`teamsPage.html`)
+### Página de información de escuderías(`teamsPage.html`)
  
 - **Header:**
   - Sección 1 con logo y botones para registrarte e iniciar sesión.
