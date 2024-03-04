@@ -13,6 +13,8 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   - **confirmedRegisterPage.html:** Página para indicar que el registro se ha realizado correctamente.
   - **loginPage.html:** Página para inicio de sesión de usuario.
   - **calendarPage.html:** Página para el calendario de carreras.
+  - **driversPage.html:** Página para la clasificación de pilotos.
+  - **teamsPage.html:** Página para la clasificación de escuderías.
   
 - **CSS:**
   - **homeStyle.css:** Archivo de estilo para la página principal.
@@ -20,6 +22,8 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   - **confirmedRegisterStyle.css:** Archivo de estilo para la página de confirmación de registro.
   - **loginStyle.css:** Archivo de estilo para la página de inicio de sesión.
   - **calendarStyle.css:** Archivo de estilo para la página de calendario de carreras.
+  - **driversStyle.css:** Archivo de estilo para la clasificación de pilotos.
+  - **teamsStyle.css:** Archivo de estilo para la clasificación de escuderías.
 
 ## Contenido
 
@@ -59,6 +63,32 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
 - **Main:**
   - Título 
   - Una serie de cuadrados que representan un circuito cada uno.
+  
+- **Footer:**
+  - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+ 
+### Página de clasificación de pilotos(`driversPage.html`)
+ 
+- **Header:**
+  - Sección 1 con logo y botones para registrarte e iniciar sesión.
+  - Sección 2 con logo de la F1 y navegación entre las diferentes páginas.
+
+- **Main:**
+  - Título 
+  - Una tabla con los nombres de los pilotos, puntos, escudería a la que pertenecen, número de victorias, número de podios etc.
+  
+- **Footer:**
+  - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+ 
+### Página de clasificación de escuderías(`teamsPage.html`)
+ 
+- **Header:**
+  - Sección 1 con logo y botones para registrarte e iniciar sesión.
+  - Sección 2 con logo de la F1 y navegación entre las diferentes páginas.
+
+- **Main:**
+  - Título 
+  - Una tabla con los nombres de las escuderías, puntos, pilotos que pertenecen a dicha escudería, número de victorias, número de podios etc.
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
