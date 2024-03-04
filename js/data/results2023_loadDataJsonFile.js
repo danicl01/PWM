@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const jsonFile = "../data/race_results2023.json";
+    const jsonFile = "../../data/race_results2023.json";
 
     fetch(jsonFile)
         .then(response => response.json())

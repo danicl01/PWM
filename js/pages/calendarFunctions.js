@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const article1 = document.createElement("article");
         const img = document.createElement("img");
-        img.src = `../assets/images/circuits/${circuit}-circuit.png`;
+        img.src = `../../assets/images/circuits/${circuit}-circuit.png`;
         img.alt = circuit;
         article1.appendChild(img);
 
