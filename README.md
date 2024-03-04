@@ -7,39 +7,41 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
 - **resources:** Contiene archivos multimedia y otros recursos.
   
 - **HTML:**
-  - **mockPage.html:** Página de muestra para enlaces temporales.
-  - **homePage.html:** Página principal del proyecto. 
-  - **registerPage.html:** Página para el registro de usuario.
-  - **confirmedRegisterPage.html:** Página para indicar que el registro se ha realizado correctamente.
-  - **loginPage.html:** Página para inicio de sesión de usuario.
-  - **calendarPage.html:** Página para el calendario de carreras.
-  - **driversRatingPage.html:** Página para la clasificación de pilotos. Subcategoría de "Results".
-  - **teamsRatingPage.html:** Página para la clasificación de escuderías. Subcategoría de "Results".
-  - **driversPage.html:** Página para información de pilotos.
-  - **teamsPage.html:** Página para la información de escuderías.
-  - **mainNewsPage.html:** Página dedicada a la noticia principal de cada sección.
-  - **secondaryNewsPage.html:** Página dedicada a las noticias secundarias de cada sección.
+  - **Pages:** 
+    - **mockPage.html:** Página de muestra para enlaces temporales.
+    - **homePage.html:** Página principal del proyecto. 
+    - **registerPage.html:** Página para el registro de usuario.
+    - **confirmedRegisterPage.html:** Página para indicar que el registro se ha realizado correctamente.
+    - **loginPage.html:** Página para inicio de sesión de usuario.
+    - **calendarPage.html:** Página para el calendario de carreras.
+    - **driversRatingPage.html:** Página para la clasificación de pilotos. Subcategoría de "Results".
+    - **teamsRatingPage.html:** Página para la clasificación de escuderías. Subcategoría de "Results".
+    - **driversPage.html:** Página para información de pilotos.
+    - **teamsPage.html:** Página para la información de escuderías.
+    - **mainNewsPage.html:** Página dedicada a la noticia principal de cada sección.
+    - **secondaryNewsPage.html:** Página dedicada a las noticias secundarias de cada sección.
   - **newsPage.html:** Página para las noticias sobre ciertos tópicos ("News" en el header con sus diferentes subcategorías).
-  
-  - **header.html:** Template de header listo para añadir a cualquier página en la que sea necesario.
-  - **footer.html:** Template de footer listo para añadir a cualquier página en la que sea necesario.
+  - **Templates:**  
+    - **header.html:** Template de header listo para añadir a cualquier página en la que sea necesario.
+    - **footer.html:** Template de footer listo para añadir a cualquier página en la que sea necesario.
   
 - **CSS:**
-  - **homeStyle.css:** Archivo de estilo para la página principal.
-  - **registerStyle.css:** Archivo de estilo para la página de registro.
-  - **confirmedRegisterStyle.css:** Archivo de estilo para la página de confirmación de registro.
-  - **loginStyle.css:** Archivo de estilo para la página de inicio de sesión.
-  - **calendarStyle.css:** Archivo de estilo para la página de calendario de carreras.
-  - **driversRatingStyle.css:** Archivo de estilo para la página de clasificación de pilotos.
-  - **teamsRatingStyle.css:** Archivo de estilo para la página de clasificación de escuderías.
-  - **driversStyle.css:** Archivo de estilo para la página de información de pilotos.
-  - **teamsStyle.css:** Archivo de estilo para la página de información de escuderías.
-  - **mainNewsStyle.css:** Archivo de estilo para la página de la noticia principal.
-  - **secondaryNewsStyle.css:** Archivo de estilo para las páginas de las noticias secundarias.
-  - **newsStyle.css:** Archivo de estilo para la página de las noticias sobre ciertos tópicos.
- 
-  - **headerStyle.css:** Archivo de estilo para el template de header.
-  - **footerStyle.css:** Archivo de estilo para el template de footer.
+  - **Pages:**  
+    - **homeStyle.css:** Archivo de estilo para la página principal.
+    - **registerStyle.css:** Archivo de estilo para la página de registro.
+    - **confirmedRegisterStyle.css:** Archivo de estilo para la página de confirmación de registro.
+    - **loginStyle.css:** Archivo de estilo para la página de inicio de sesión.
+    - **calendarStyle.css:** Archivo de estilo para la página de calendario de carreras.
+    - **driversRatingStyle.css:** Archivo de estilo para la página de clasificación de pilotos.
+    - **teamsRatingStyle.css:** Archivo de estilo para la página de clasificación de escuderías.
+    - **driversStyle.css:** Archivo de estilo para la página de información de pilotos.
+    - **teamsStyle.css:** Archivo de estilo para la página de información de escuderías.
+    - **mainNewsStyle.css:** Archivo de estilo para la página de la noticia principal.
+    - **secondaryNewsStyle.css:** Archivo de estilo para las páginas de las noticias secundarias.
+    - **newsStyle.css:** Archivo de estilo para la página de las noticias sobre ciertos tópicos.
+  - **Templates:**
+    - **headerStyle.css:** Archivo de estilo para el template de header.
+    - **footerStyle.css:** Archivo de estilo para el template de footer.
 
 ## Contenido de las páginas
 
