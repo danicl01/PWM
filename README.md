@@ -20,7 +20,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
     - **teamsPage.html:** Página para la información de escuderías.
     - **mainNewsPage.html:** Página dedicada a la noticia principal de cada sección.
     - **secondaryNewsPage.html:** Página dedicada a las noticias secundarias de cada sección.
-  - **newsPage.html:** Página para las noticias sobre ciertos tópicos ("News" en el header con sus diferentes subcategorías).
+    - **newsPage.html:** Página para las noticias sobre ciertos tópicos ("News" en el header con sus diferentes subcategorías).
   - **Templates:**  
     - **header.html:** Template de header listo para añadir a cualquier página en la que sea necesario.
     - **footer.html:** Template de footer listo para añadir a cualquier página en la que sea necesario.
