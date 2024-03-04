@@ -17,6 +17,9 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   - **teamsRatingPage.html:** Página para la clasificación de escuderías. Subcategoría de "Results".
   - **driversPage.html:** Página para información de pilotos.
   - **teamsPage.html:** Página para la información de escuderías.
+  - **mainNewsPage.html:** Página dedicada a la noticia principal de cada sección.
+  - **secondaryNewsPage.html:** Página dedicada a las noticias secundarias de cada sección.
+  - **newsPage.html:** Página para las noticias sobre ciertos tópicos ("News" en el header con sus diferentes subcategorías).
   
 - **CSS:**
   - **homeStyle.css:** Archivo de estilo para la página principal.
@@ -24,10 +27,13 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   - **confirmedRegisterStyle.css:** Archivo de estilo para la página de confirmación de registro.
   - **loginStyle.css:** Archivo de estilo para la página de inicio de sesión.
   - **calendarStyle.css:** Archivo de estilo para la página de calendario de carreras.
-  - **driversRatingStyle.css:** Archivo de estilo para la clasificación de pilotos.
-  - **teamsRatingStyle.css:** Archivo de estilo para la clasificación de escuderías.
-  - **driversStyle.css:** Archivo de estilo para la clasificación de pilotos.
-  - **teamsStyle.css:** Archivo de estilo para la clasificación de escuderías.
+  - **driversRatingStyle.css:** Archivo de estilo para la página de clasificación de pilotos.
+  - **teamsRatingStyle.css:** Archivo de estilo para la página de clasificación de escuderías.
+  - **driversStyle.css:** Archivo de estilo para la página de información de pilotos.
+  - **teamsStyle.css:** Archivo de estilo para la página de información de escuderías.
+  - **mainNewsStyle.css:** Archivo de estilo para la página de la noticia principal.
+  - **secondaryNewsStyle.css:** Archivo de estilo para las páginas de las noticias secundarias.
+  - **newsStyle.css:** Archivo de estilo para la página de las noticias sobre ciertos tópicos.
 
 ## Contenido
 
@@ -122,6 +128,45 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+ 
+### Página de noticia principal(`mainNewsPage.html`)
+ 
+- **Header:**
+  - Sección 1 con logo y botones para registrarte e iniciar sesión.
+  - Sección 2 con logo de la F1 y navegación entre las diferentes páginas.
+
+- **Main:**
+  - Un artículo con una imagen principal de la noticia, información sobre ella e imágenes relacionadas. A su vez, otro artículo para mostrar noticias secundarias      en el lateral.
+  
+- **Footer:**
+  - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+ 
+### Página de noticias secundarias(`secondaryNewsPage.html`)
+ 
+- **Header:**
+  - Sección 1 con logo y botones para registrarte e iniciar sesión.
+  - Sección 2 con logo de la F1 y navegación entre las diferentes páginas.
+
+- **Main:**
+  - Un artículo con una imagen principal de la noticia e información sobre ella. A su vez, otro artículo para mostrar noticias secundarias en el lateral.
+  
+- **Footer:**
+  - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+ 
+### Página de noticias sobre ciertos tópicos(`newsPage.html`)
+ 
+- **Header:**
+  - Sección 1 con logo y botones para registrarte e iniciar sesión.
+  - Sección 2 con logo de la F1 y navegación entre las diferentes páginas.
+
+- **Main:**
+  - Varios articulos y divs, uno más grande para la noticia principal y 4 más pequeños para las secundarias. Incluyen imagen y titular de la noticia.
+  
+- **Footer:**
+  - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
+
+
 
 ## Notas Adicionales
 
