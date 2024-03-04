@@ -21,6 +21,9 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   - **secondaryNewsPage.html:** Página dedicada a las noticias secundarias de cada sección.
   - **newsPage.html:** Página para las noticias sobre ciertos tópicos ("News" en el header con sus diferentes subcategorías).
   
+  - **header.html:** Template de header listo para añadir a cualquier página en la que sea necesario.
+  - **footer.html:** Template de footer listo para añadir a cualquier página en la que sea necesario.
+  
 - **CSS:**
   - **homeStyle.css:** Archivo de estilo para la página principal.
   - **registerStyle.css:** Archivo de estilo para la página de registro.
@@ -34,8 +37,11 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   - **mainNewsStyle.css:** Archivo de estilo para la página de la noticia principal.
   - **secondaryNewsStyle.css:** Archivo de estilo para las páginas de las noticias secundarias.
   - **newsStyle.css:** Archivo de estilo para la página de las noticias sobre ciertos tópicos.
+ 
+  - **headerStyle.css:** Archivo de estilo para el template de header.
+  - **footerStyle.css:** Archivo de estilo para el template de footer.
 
-## Contenido
+## Contenido de las páginas
 
 ### Página Principal (`homePage.html`)
 
@@ -48,21 +54,25 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
- 
+
+
 ### Página de Registro (`registerPage.html`)
  
 - **Main:**
   - Un artículo con varios inputs para proporcionar la información de registro.
+
  
 ### Página de Confirmación de Registro (`confirmedRegisterPage.html`)
  
 - **Main:**
   - Un artículo con una imagen y texto indicando que el usuario se ha registrado correctamente.
+
  
 ### Página de Inicio de Sesión  (`loginPage.html`)
  
 - **Main:**
   - Un artículo con varios inputs para facilitar los datos de inicio de sesión.
+
  
 ### Página de Calendario  (`calendarPage.html`)
  
@@ -70,12 +80,14 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   - Sección 1 con logo y botones para registrarte e iniciar sesión.
   - Sección 2 con logo de la F1 y navegación entre las diferentes páginas.
 
+
 - **Main:**
   - Título 
   - Una serie de cuadrados que representan un circuito cada uno.
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
  
 ### Página de clasificación de pilotos(`driversRatingPage.html`)
  
@@ -89,6 +101,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
  
 ### Página de clasificación de escuderías(`teamsRatingPage.html`)
  
@@ -102,6 +115,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
  
 ### Página de información de pilotos(`driversPage.html`)
  
@@ -115,6 +129,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
  
 ### Página de información de escuderías(`teamsPage.html`)
  
@@ -128,6 +143,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
  
 ### Página de noticia principal(`mainNewsPage.html`)
  
@@ -140,6 +156,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
  
 ### Página de noticias secundarias(`secondaryNewsPage.html`)
  
@@ -152,6 +169,7 @@ Este proyecto forma parte del Sprint 1, cuyo objetivo es crear templates modular
   
 - **Footer:**
   - Logo y breve descripción. Links a páginas webs externas como nuestras redes sociales.
+
  
 ### Página de noticias sobre ciertos tópicos(`newsPage.html`)
  
