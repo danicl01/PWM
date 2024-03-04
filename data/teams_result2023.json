@@ -1,0 +1,102 @@
+[
+  {
+    "Position": 1,
+    "Name": "Red Bull",
+    "Points": 860,
+    "Wins": 21,
+    "Podiums": 30,
+    "Scores": 41,
+    "Nationality": "Austrian",
+    "Drivers": ["Max Verstappen", "Sergio Pérez"]
+  },
+  {
+    "Position": 2,
+    "Name": "Mercedes",
+    "Points": 409,
+    "Wins": null,
+    "Podiums": 8,
+    "Scores": 37,
+    "Nationality": "German",
+    "Drivers": ["Lewis Hamilton", "George Russell"]
+  },
+  {
+    "Position": 3,
+    "Name": "Ferrari",
+    "Points": 406,
+    "Wins": 1,
+    "Podiums": 9,
+    "Scores": 34,
+    "Nationality": "Italian",
+    "Drivers": ["Carlos Sainz", "Charles Leclerc"]
+  },
+  {
+    "Position": 4,
+    "Name": "McLaren",
+    "Points": 302,
+    "Wins": null,
+    "Podiums": 9,
+    "Scores": 27,
+    "Nationality": "British",
+    "Drivers": ["Lando Norris", "Oscar Piastri"]
+  },
+  {
+    "Position": 5,
+    "Name": "Aston Martin",
+    "Points": 280,
+    "Wins": null,
+    "Podiums": 8,
+    "Scores": 31,
+    "Nationality": "British",
+    "Drivers": ["Fernando Alonso", "Lance Stroll"]
+  },
+  {
+    "Position": 6,
+    "Name": "Alpine F1 Team",
+    "Points": 120,
+    "Wins": null,
+    "Podiums": 2,
+    "Scores": 23,
+    "Nationality": "French",
+    "Drivers": ["Pierre Gasly", "Esteban Ocon"]
+  },
+  {
+    "Position": 7,
+    "Name": "Williams",
+    "Points": 28,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 8,
+    "Nationality": "British",
+    "Drivers": ["Alexander Albon", "Logan Sargeant"]
+  },
+  {
+    "Position": 8,
+    "Name": "AlphaTauri",
+    "Points": 25,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 8,
+    "Nationality": "Italian",
+    "Drivers": ["Yuki Tsunoda", "Nyck de Vries", "Daniel Ricciardo", "Liam Lawson"]
+  },
+  {
+    "Position": 9,
+    "Name": "Alfa Romeo",
+    "Points": 16,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 7,
+    "Nationality": "Swiss",
+    "Drivers": ["Valtteri Bottas", "Guanyu Zhou"]
+  },
+  {
+    "Position": 10,
+    "Name": "Haas F1 Team",
+    "Points": 12,
+    "Wins": null,
+    "Podiums": null,
+    "Scores": 4,
+    "Nationality": "American",
+    "Drivers": ["Kevin Magnussen", "Nico Hülkenberg"]
+  }
+]

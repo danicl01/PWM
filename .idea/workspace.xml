@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Refactored register and confirmedRegister" />
+    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Refactored register and confirmedRegister">
+      <change afterPath="$PROJECT_DIR$/data/teams_result2023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/pages/teamsRatingPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/data/teamResults2023_loadDataJsonFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/templates/headerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/race_results2023.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/drivers_result2023.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/driversRatingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/driversRatingPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/data/results2023_loadDataJsonFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data/driversresult2023_loadDataJsonFile.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,9 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dDsqfoX6olsIJxia0XUShuiYuV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,11 +46,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.header2.html.executor": "Run",
     "JavaScript Debug.home.html.executor": "Run",
     "JavaScript Debug.homePage.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/LG/WebstormProjects/F1_App",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709554175605</updated>
       <workItem from="1709554177726" duration="2706000" />
+      <workItem from="1709558781484" duration="7101000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />
