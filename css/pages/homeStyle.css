@@ -1,4 +1,3 @@
-
 .cover {
     display: flex;
     justify-content: space-between;
@@ -22,7 +21,6 @@
     max-width: 100%;
     width: auto;
     padding-bottom: 10px;
-
 }
 
 .main-zone-1 img {
@@ -48,16 +46,20 @@
     font-weight: bold;
 }
 
+.main-zone-2 {
+    max-width: 100%;
+}
+
 .square-group {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
+    max-width: 100%;
 }
 
 .square {
     display: flex;
     background-color: lightgray;
-    /*border: 2px solid black;*/
     border-radius: 5px;
     width: 650px;
     height: 225px;
@@ -65,8 +67,6 @@
 }
 
 .square:hover {
-    /*border-color: red;
-    transition: border-color 0.3s ease;*/
     color:#666666;
 }
 
@@ -90,7 +90,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /*border: 2px solid black;*/
     border-radius: 5px;
     margin: 10px;
 }

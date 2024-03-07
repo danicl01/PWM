@@ -26,7 +26,7 @@ header {
     margin: auto;
 }
 
-.header_button-login, .header_button-profile, .header_button-signUp{
+.header_button-login, .header_button-profile, .header_button-signUp, .header_button-logout{
     cursor: pointer;
     border: none;
 }
@@ -39,6 +39,7 @@ header {
     margin-right: 20px;
     border-radius: 25px;
     transition: background-color 0.5s ease;
+    display: none;
 }
 
 .header_button-login {
@@ -52,6 +53,17 @@ header {
     border-color: #0F969C;
     border-style: solid;
     transition: background-color 0.5s ease;
+    display: none;
+}
+
+.header_button-logout {
+    background-color: white;
+    padding: 12px 24px;
+    color: grey;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 25px;
+    transition: background-color 0.5s ease;
 }
 
 .header_button-signUp:hover {
@@ -63,9 +75,12 @@ header {
 }
 
 .header_button-profile {
-    display: none;
     background-color: white;
     margin-right: 40px;
+}
+
+.header_button-logout:hover {
+    background-color: lightgray;
 }
 
 
@@ -76,7 +91,7 @@ header {
     display: flex;
     align-items: center;
     color: white;
-    background: #294D61;
+    background: linear-gradient(to right, black, red);
     margin-bottom: 50px;
 }
 
@@ -105,7 +120,7 @@ ul li ul.dropdown li {
 }
 
 ul li ul.dropdown {
-    background-color: #6DA5C0;
+    background: linear-gradient(to right, black, red);
     position: absolute;
     z-index: 999;
     opacity: 0;
@@ -120,8 +135,8 @@ ul li ul.dropdown {
 }
 
 .nav_link:hover  {
-    background-color: #6DA5C0;
-    color: #072E33;
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
 }
 
 ul li:hover ul.dropdown {
@@ -130,5 +145,6 @@ ul li:hover ul.dropdown {
 }
 
 ul.dropdown li:hover {
-    text-decoration: underline;
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
 }

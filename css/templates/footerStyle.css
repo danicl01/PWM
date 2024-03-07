@@ -13,7 +13,13 @@ footer {
     padding: 2px;
     display: flex;
     justify-content: space-between;
-    /*padding-bottom: 10px;*/
+    /*
+    position: absolute;
+    left: 0;
+    right: 0;              // Se supone que esto es para que el footer se pegue abajo del t0do siempre
+    bottom: 0;             // Sin embargo, aún no funciona bien
+     */
+
 }
 
 footer h3 {
@@ -35,7 +41,7 @@ footer p {
 }
 
 #footer-container {
-    min-width   : 100%; /* o cualquier otra altura deseada */
-    min-height: 100%; /* o cualquier otra altura deseada */
+    min-width: 100%;
+    min-height: 100%;
 }
 
