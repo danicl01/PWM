@@ -132,3 +132,18 @@ ul li:hover ul.dropdown {
 ul.dropdown li:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 1000px) {
+    .header_section2 {
+        background-color: #6DA5C0;
+        position: absolute;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: 0;
+        top: 100%;
+    }
+
+}
