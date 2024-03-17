@@ -68,9 +68,10 @@ header {
     margin-right: 40px;
 }
 
-
-
-
+/*###########################################
+  ####           SECTION 2               ####
+  ###########################################
+ */
 
 .header_section2 {
     display: flex;
@@ -90,7 +91,7 @@ header {
 
 .nav_link {
     display: inline-block;
-    padding: 30px 60px;
+    padding: 30px 4%;
     font-weight: bold;
     color:white;
     transition: background-color 0.3s ease;
@@ -133,17 +134,88 @@ ul.dropdown li:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 1000px) {
-    .header_section2 {
-        background-color: #6DA5C0;
-        position: absolute;
-        z-index: 999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        left: 0;
-        top: 100%;
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+
+.mobile-menu a {
+    text-decoration: none;
+    padding-left: 100%;
+    padding-right: 100%;
+    background: black;
+    opacity: 0.9;
+}
+
+.mobile-menu_link {
+    font-weight: bold;
+    color:white;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 2px 100% 2px 100%;
+    opacity: 0.9;
+    background: black;
+    border-bottom: 1px solid white;
+}
+
+
+@media (max-width: 960px) {
+    .header_heading {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .header_section1 {
+        justify-content: flex-end;
+        border-bottom: 2px solid #000000;
     }
 
+    .header_section2 {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
 }
