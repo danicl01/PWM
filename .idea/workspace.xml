@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="mockup header created (test)">
-      <change afterPath="$PROJECT_DIR$/js/templates/headerMock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/templates/headerMockStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerMockStyle.css" afterDir="false" />
+    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Responsive header (Desktop - mobile)">
       <change beforePath="$PROJECT_DIR$/css/templates/headerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/templates/headerMock.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/headerMock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/templates/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates/header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1709717244079" duration="1637000" />
       <workItem from="1709812108154" duration="3143000" />
       <workItem from="1709851032672" duration="1050000" />
-      <workItem from="1710431379080" duration="21134000" />
+      <workItem from="1710431379080" duration="21825000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />
@@ -131,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710615473603</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Responsive header (Desktop - mobile)">
+      <option name="closed" value="true" />
+      <created>1710712433144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710712433144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +146,7 @@
     <MESSAGE value="teams result html, css, js and json file done. Also create some transitions for login/sign-up buttons and nav menu." />
     <MESSAGE value="Little changes on the header, and added some style for the Formula Learning section." />
     <MESSAGE value="mockup header created (test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="mockup header created (test)" />
+    <MESSAGE value="Responsive header (Desktop - mobile)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive header (Desktop - mobile)" />
   </component>
 </project>
