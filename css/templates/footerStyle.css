@@ -50,24 +50,20 @@ footer p {
 }
 
 @media all and (max-width: 720px) {
-    .column:not(.footer_logo) {
-        display: none;
+    footer {
+        text-align: center;
     }
 
-    .footer_logo {
-        margin-top: 50px;
-        margin-bottom: 20px;
-        width: 9em;
-        height: 3em;
-        align-items: center;
+    .column, .footer_logo:not(.column) {
+        display: none;
     }
     
     .column1 {
         width: auto;
-        margin-bottom: 20px;
-        margin-right: 33px;
+        margin: 20px auto;
     }
 }
+
 
 
 
