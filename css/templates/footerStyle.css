@@ -35,6 +35,10 @@ footer p {
     width: 15%;
 }
 
+.column1 {
+    width: 15%;
+}
+
 .footer_logo {
     margin: 50px;
     border-radius: 8px;
@@ -44,4 +48,27 @@ footer p {
     min-width: 100%;
     min-height: 100%;
 }
+
+@media all and (max-width: 720px) {
+    .column:not(.footer_logo) {
+        display: none;
+    }
+
+    .footer_logo {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 9em;
+        height: 3em;
+        align-items: center;
+    }
+    
+    .column1 {
+        width: auto;
+        margin-bottom: 20px;
+        margin-right: 33px;
+    }
+}
+
+
+
 
