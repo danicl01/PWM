@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login Page</title>
     <link rel="stylesheet" type="text/css" href="../../css/pages/loginStyle.css">
+    <script src="../../js/pages/loginFunctions.js"></script>
 </head>
 <body>
     <header>
@@ -17,12 +18,17 @@
                 <article>
                     <h1>¡Bienvenido!</h1>
                     <p class="mensaje1">Inicie sesión para poder continuar</p>
+
                     <label for="user-email">Email</label><br>
+                    <div id="emailError" class="error-message"></div>
                     <input type="email" id="user-email" name="email" required><br><br>
+
                     <label for="user-password">Contraseña</label><br>
+                    <div id="passwordError" class="error-message"></div>
                     <input type="password" id="user-password" name="contraseña" required><br><br>
+                    
                     <a href="homePage.html">
-                        <button class="login_button">Iniciar sesión</button>
+                        <button id="loginButton" class="login_button">Iniciar sesión</button>
                     </a>
                     <p class="mensaje2">¿No tienes cuenta?</p>
                     <p class="mensaje3">Descubre lo que estás perdiendo</p>

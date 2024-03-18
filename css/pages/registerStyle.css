@@ -110,6 +110,12 @@ main {
     border: 2px solid black;
 }
 
+.main-zone-1 .error-message {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;   
+}
+
 .registration_button:hover {
     border-color: #294D61;
     background-color: #0F969C;
