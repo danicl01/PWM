@@ -16,23 +16,27 @@
         <main>
             <div class="main-zone-1">
                 <article>
-                    <h1>¡Bienvenido!</h1>
-                    <p class="mensaje1">Inicie sesión para poder continuar</p>
+                    <form id="loginForm">
+                        <h1>¡Bienvenido!</h1>
+                        <p class="mensaje1">Inicie sesión para poder continuar</p>
 
-                    <label for="user-email">Email</label><br>
-                    <div id="emailError" class="error-message"></div>
-                    <input type="email" id="user-email" name="email" required><br><br>
+                        <div class="inputContainer">
+                            <input type="email" id="user-email" name="email" required="required"><br><br>
+                            <label for="user-email">Email</label>
+                            <div id="emailError" class="error-message"></div><br>
+                        </div>
 
-                    <label for="user-password">Contraseña</label><br>
-                    <div id="passwordError" class="error-message"></div>
-                    <input type="password" id="user-password" name="contraseña" required><br><br>
-                    
-                    <a href="homePage.html">
+                        <div class="inputContainer">
+                            <input type="password" id="user-password" name="contraseña" required="required"><br><br>
+                            <label for="user-password">Contraseña</label><br>
+                            <div id="passwordError" class="error-message"></div><br>
+                        </div>
+
                         <button id="loginButton" class="login_button">Iniciar sesión</button>
-                    </a>
-                    <p class="mensaje2">¿No tienes cuenta?</p>
-                    <p class="mensaje3">Descubre lo que estás perdiendo</p>
-                    <a href="registerPage.html" class="link">Regístrate</a>
+                        <p class="mensaje2">¿No tienes cuenta?</p>
+                        <p class="mensaje3">Descubre lo que estás perdiendo</p>
+                        <a href="registerPage.html" class="link">Regístrate</a>
+                    </form>
                 </article>
             </div>
         </main>
