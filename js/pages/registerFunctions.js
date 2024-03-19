@@ -1,80 +1,119 @@
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("registerButton").addEventListener("click", function(event) {
-        event.preventDefault();
+    var username = document.getElementById("username");
+    var email = document.getElementById("user-email");
+    var password = document.getElementById("user-password");
+    var confirmPassword = document.getElementById("confirmPassword");
+    var registrationForm = document.getElementById("registrationForm");
 
-        var username = document.getElementById("username").value;
-        var email = document.getElementById("user-email").value;
-        var password = document.getElementById("user-password").value;
-        var confirmPassword = document.getElementById("confirmPassword").value;
+    function validateUsername() {
+        var usernameValue = username.value.trim();
 
-        clearErrors();
-
-        var isValid = validateRegisterForm(username, email, password, confirmPassword);
-        if (isValid) {
-            navigateToConfirmationPage();
+        if (usernameValue == "") {
+            showError("Por favor, rellena este campo", "usernameError");
+            username.setCustomValidity("");
+            username.classList.remove("input-error");
+        } else if (usernameValue.length < 4) {
+            showError("El nombre de usuario es demasiado corto", "usernameError");
+            username.setCustomValidity("El nombre de usuario es demasiado corto");
+            username.classList.add("input-error");
+        } else {
+            showError("", "usernameError");
+            username.setCustomValidity("");
+            username.classList.remove("input-error");
         }
-    });
+    }
+
+    function validateEmail() {
+        var emailValue = email.value.trim();
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (emailValue == "") {
+            showError("Por favor, rellena este campo", "emailError");
+            email.setCustomValidity("");
+            email.classList.remove("input-error");
+        } else if (!emailRegex.test(emailValue)) {
+            showError("Por favor, introduzca un correo electrónico válido", "emailError");
+            email.setCustomValidity("Por favor, introduzca un correo electrónico válido");
+            email.classList.add("input-error");
+        } else {
+            showError("", "emailError");
+            email.setCustomValidity("");
+            email.classList.remove("input-error");
+        }
+    }
+
+    function validatePassword() {
+        var passwordValue = password.value.trim();
+        var passwordRegex =  /^.{8,}$/;
+
+        if (passwordValue == "") {
+            showError("Por favor, rellena este campo", "passwordError");
+            password.setCustomValidity("");
+            password.classList.remove("input-error");
+        } else if (!passwordRegex.test(passwordValue)) {
+            showError("La contraseña debe tener al menos 8 caracteres", "passwordError");
+            password.setCustomValidity("La contraseña debe tener al menos 8 caracteres");
+            password.classList.add("input-error");
+        } else {
+            showError("", "passwordError");
+            password.setCustomValidity("");
+            password.classList.remove("input-error");
+        }
+    }
+
+    function validateConfirmPassword() {
+        var passwordValue = password.value.trim();
+        var confirmPasswordValue = confirmPassword.value.trim();
+        var passwordRegex =  /^.{8,}$/;
+
+        if (confirmPasswordValue == "") {
+            showError("Por favor, rellena este campo", "confirmPasswordError");
+            confirmPassword.setCustomValidity("");
+            confirmPassword.classList.remove("input-error");
+        } else if (passwordValue != confirmPasswordValue) {
+            showError("Las contraseñas no coinciden", "confirmPasswordError");
+            confirmPassword.setCustomValidity("Las contraseñas no coinciden");
+            confirmPassword.classList.add("input-error");
+        } else if (!passwordRegex.test(confirmPasswordValue)) {
+            showError("La contraseña no cumple con los requisitos", "confirmPasswordError");
+            confirmPassword.setCustomValidity("La contraseña no cumple con los requisitos");
+            confirmPassword.classList.add("input-error");
+        } else {
+            showError("", "confirmPasswordError");
+            confirmPassword.setCustomValidity("");
+            confirmPassword.classList.remove("input-error");
+        }
+    }
+
+    function navigateToConfirmRegistration() {
+        var usernameValue = username.value.trim();
+        var emailValue = email.value.trim();
+        var passwordValue = password.value.trim();
+        var confirmPasswordValue = confirmPassword.value.trim();
+
+        if (usernameValue !== "" && emailValue !== "" && passwordValue !== "" && confirmPasswordValue !== "") {
+            window.location.href = "confirmedRegisterPage.html";
+        }
+    }
+
+    function showError(message, errorMessageId) {
+        var errorElement = document.getElementById(errorMessageId);
+        errorElement.innerText = message;
+    }
+
+    function validateForm(event) {
+        event.preventDefault();
+        validateUsername();
+        validateEmail();
+        validatePassword();
+        validateConfirmPassword();
+        navigateToConfirmRegistration();
+    }
+
+    username.addEventListener("blur", validateUsername);
+    email.addEventListener("blur", validateEmail);
+    password.addEventListener("blur", validatePassword);
+    confirmPassword.addEventListener("blur", validateConfirmPassword);
+    registrationForm.addEventListener("submit", validateForm);
+
 });
-
-function validateRegisterForm(username, email, password, confirmPassword) {
-    var isValid = true;
-    if (username == "") {
-        showError("Por favor, complete el campo de Nombre de usuario.", "usernameError");
-        isValid = false;
-    }
-
-    if (email == "") {
-        showError("Por favor, complete el campo de Email.", "emailError");
-        isValid = false;
-    } else if (!isValidEmail(email)) {
-        showError("Por favor, introduzca un correo electrónico válido.", "emailError");
-        isValid = false;
-    }
-
-    if (password == "") {
-        showError("Por favor, complete el campo de Contraseña.", "passwordError");
-        isValid = false;
-    } else if (!isValidPasswordLength(password)) {
-        showError("La contraseña debe tener al menos 8 caracteres.", "passwordError");
-        isValid = false;
-    }
-
-    if (confirmPassword == "") {
-        showError("Por favor, complete el campo de Confirmar contraseña.", "confirmPasswordError");
-        isValid = false;
-    }
-
-    if (password != confirmPassword) {
-        showError("Las contraseñas no coinciden.", "confirmPasswordError");
-        isValid = false;
-    }
-
-    return isValid;
-}
-
-function isValidEmail(email) {
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-}
-
-function isValidPasswordLength(password) {
-    var passwordRegex = /^.{8,}$/;
-    return passwordRegex.test(password);
-}
-
-function showError(message, errorMessageId) {
-    var errorElement = document.getElementById(errorMessageId);
-    errorElement.innerText = message;
-}
-
-function clearErrors() {
-    var errorMessages = document.querySelectorAll(".error-message");
-    errorMessages.forEach(function(element) {
-        element.innerText = "";
-    });
-}
-
-function navigateToConfirmationPage() {
-    var confirmationPageUrl = "confirmedRegisterPage.html";
-    window.location.href = confirmationPageUrl;
-}

@@ -87,16 +87,18 @@ main {
 }
 
 .main-zone-1 label {
-    text-align: left;
+    text-align: center;
     font-weight: 600;
 }
 
 .main-zone-1 input {
     width: 90%;
     height: 21px;
-    border: 1px solid black;
-    border-radius: 3px;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: start;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
 }
 
 .main-zone-1 .registration_button {
@@ -110,12 +112,6 @@ main {
     border: 2px solid black;
 }
 
-.main-zone-1 .error-message {
-    font-size: 14px;
-    font-weight: bold;
-    color: red;   
-}
-
 .registration_button:hover {
     border-color: #294D61;
     background-color: #0F969C;
@@ -125,6 +121,18 @@ main {
 
 .main-zone-1 input:focus {
     background-color: #B3D4FF;
+    border: 2px solid #294D61;
+    outline: none;
+}
+
+.main-zone-1 .input-error {
+    border-color: red;
+}
+
+.main-zone-1 .error-message {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
 }
 
 aside {
