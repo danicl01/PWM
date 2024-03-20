@@ -45,26 +45,31 @@ main {
 }
 
 .main-zone-1 {
-    width: 80%;
+    width: 90%;
     max-width: 500px;
     margin: 20px;
+    padding: 10px;
+    text-align: center;
     background-color: gray;
     border: 2px solid black;
     border-radius: 12px;
-    padding: 10px;
-    text-align: center;
 }
 
 .main-zone-1 article {
     background-color: #E0E0E0;
-    border-radius: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    flex-direction: column;
     padding: 10px;
 }
 
 .main-zone-1 h1 {
     margin-left: 2px;
     margin-top: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: bold;
     font-size: 2.5vw;
     color: #DFA40C;
@@ -86,23 +91,68 @@ main {
     color: blue;
 }
 
-.main-zone-1 label {
-    text-align: center;
-    font-weight: 600;
+.main-zone-1 .inputContainer {
+    position: relative;
+    justify-content: center;
 }
 
-.main-zone-1 input {
-    width: 90%;
-    height: 21px;
+.main-zone-1 .inputContainer input {
+    width: 250px;
+    padding: 13px;
+    outline: none;
+    border: none;
+    color: black;
     font-size: 15px;
-    text-align: start;
+    background: transparent;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 8px;
+    transition: 0.1s;
+}
+
+.main-zone-1 .inputContainer label {
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    transform: translateY(0);
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+.main-zone-1 .inputContainer label[for="username"],
+.main-zone-1 .inputContainer label[for="user-email"],
+.main-zone-1 .inputContainer label[for="user-password"],
+.main-zone-1 .inputContainer label[for="confirmPassword"]
+{
+    top: 30px;
+}
+
+.main-zone-1 .inputContainer input:valid~label,
+.main-zone-1 .inputContainer input:focus~label {
+    transform: translateX(60px) translateY(-50px);
+    font-size: 10px;
+    padding: 5px 10px;
+    background: black;
+    letter-spacing: 3px;
+    color: white;
+    border: 2px;
+}
+
+.main-zone-1 .inputContainer input:valid,
+.main-zone-1 .inputContainer input:focus {
     border: 2px solid black;
-    border-radius: 5px;
-    padding-left: 5px;
+    border-radius: 8px;
 }
 
 .main-zone-1 .registration_button {
-    width: 90%;
+    width: 40%;
     height: 30px;
     margin-top: 25px;
     font-weight: bold;
@@ -125,7 +175,7 @@ main {
     outline: none;
 }
 
-.main-zone-1 .input-error {
+.main-zone-1 .inputContainer .input-error {
     border-color: red;
 }
 

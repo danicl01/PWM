@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (usernameValue == "") {
             showError("Por favor, rellena este campo", "usernameError");
             username.setCustomValidity("");
-            username.classList.remove("input-error");
+            username.classList.add("input-error");
         } else if (usernameValue.length < 4) {
             showError("El nombre de usuario es demasiado corto", "usernameError");
             username.setCustomValidity("El nombre de usuario es demasiado corto");
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (emailValue == "") {
             showError("Por favor, rellena este campo", "emailError");
             email.setCustomValidity("");
-            email.classList.remove("input-error");
+            email.classList.add("input-error");
         } else if (!emailRegex.test(emailValue)) {
             showError("Por favor, introduzca un correo electrónico válido", "emailError");
             email.setCustomValidity("Por favor, introduzca un correo electrónico válido");
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (passwordValue == "") {
             showError("Por favor, rellena este campo", "passwordError");
             password.setCustomValidity("");
-            password.classList.remove("input-error");
+            password.classList.add("input-error");
         } else if (!passwordRegex.test(passwordValue)) {
             showError("La contraseña debe tener al menos 8 caracteres", "passwordError");
             password.setCustomValidity("La contraseña debe tener al menos 8 caracteres");
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (confirmPasswordValue == "") {
             showError("Por favor, rellena este campo", "confirmPasswordError");
             confirmPassword.setCustomValidity("");
-            confirmPassword.classList.remove("input-error");
+            confirmPassword.classList.add("input-error");
         } else if (passwordValue != confirmPasswordValue) {
             showError("Las contraseñas no coinciden", "confirmPasswordError");
             confirmPassword.setCustomValidity("Las contraseñas no coinciden");

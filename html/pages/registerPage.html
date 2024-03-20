@@ -17,21 +17,30 @@
             <article>
                 <form id="registrationForm">
                     <h1>¡Forma Parte de<br>Nuestra Familia!</h1>
-                    <label for="username">Nombre de usuario</label><br>
-                    <input type="text" id="username" name="nombre" placeholder="Jeri" required><br><br>
-                    <div id="usernameError" class="error-message"></div><br>
 
-                    <label for="user-email">Email</label><br>
-                    <input type="email" id="user-email" name="email" required><br><br>
-                    <div id="emailError" class="error-message"></div><br>
+                    <div class="inputContainer">
+                        <input type="text" id="username" name="nombre" placeholder="Jeri" required="required"><br><br>
+                        <label for="username">Nombre de usuario</label><br>
+                        <div id="usernameError" class="error-message"></div><br>
+                    </div>
 
-                    <label for="user-password">Contraseña</label><br>
-                    <input type="password" id="user-password" name="contraseña" required><br><br>
-                    <div id="passwordError" class="error-message"></div><br>
+                    <div class="inputContainer">
+                        <input type="email" id="user-email" name="email" required="required"><br><br>
+                        <label for="user-email">Email</label><br>
+                        <div id="emailError" class="error-message"></div><br>
+                    </div>
 
-                    <label for="confirmPassword">Confirmar contraseña</label><br>
-                    <input type="password" id="confirmPassword" name="confirmarContraseña" required><br><br>
-                    <div id="confirmPasswordError" class="error-message"></div><br>
+                    <div class="inputContainer">
+                        <input type="password" id="user-password" name="contraseña" required="required"><br><br>
+                        <label for="user-password">Contraseña</label><br>
+                        <div id="passwordError" class="error-message"></div><br>
+                    </div>
+
+                    <div class="inputContainer">
+                        <input type="password" id="confirmPassword" name="confirmarContraseña" required="required"><br><br>
+                        <label for="confirmPassword">Confirmar contraseña</label><br>
+                        <div id="confirmPasswordError" class="error-message"></div><br>
+                    </div>
 
                     <button id="registerButton" class="registration_button">Registrarse</button>
                     <p class="mensaje">¿Ya eres uno de nosotros?</p>
