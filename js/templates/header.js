@@ -5,3 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('header-container').innerHTML = data;
         });
 });
+
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}
+

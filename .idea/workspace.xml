@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Little changes on the header, and added some style for the Formula Learning section.">
-      <change afterPath="$PROJECT_DIR$/css/templates/headerMockStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/templates/headerMock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Responsive header (Desktop - mobile)">
       <change beforePath="$PROJECT_DIR$/css/templates/headerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/formulaLearningPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/formulaLearningPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +17,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,6 +55,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "liveEdit",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +84,7 @@
       <workItem from="1709717244079" duration="1637000" />
       <workItem from="1709812108154" duration="3143000" />
       <workItem from="1709851032672" duration="1050000" />
-      <workItem from="1710431379080" duration="3046000" />
+      <workItem from="1710431379080" duration="21825000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />
@@ -120,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709812879587</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mockup header created (test)">
+      <option name="closed" value="true" />
+      <created>1710615473603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710615473603</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Responsive header (Desktop - mobile)">
+      <option name="closed" value="true" />
+      <created>1710712433144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710712433144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +145,8 @@
     <MESSAGE value="Refactored register and confirmedRegister" />
     <MESSAGE value="teams result html, css, js and json file done. Also create some transitions for login/sign-up buttons and nav menu." />
     <MESSAGE value="Little changes on the header, and added some style for the Formula Learning section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Little changes on the header, and added some style for the Formula Learning section." />
+    <MESSAGE value="mockup header created (test)" />
+    <MESSAGE value="Responsive header (Desktop - mobile)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive header (Desktop - mobile)" />
   </component>
 </project>
