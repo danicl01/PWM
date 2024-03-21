@@ -35,6 +35,10 @@ footer p {
     width: 15%;
 }
 
+.column1 {
+    width: 15%;
+}
+
 .footer_logo {
     margin: 50px;
     border-radius: 8px;
@@ -44,4 +48,23 @@ footer p {
     min-width: 100%;
     min-height: 100%;
 }
+
+@media all and (max-width: 980px) {
+    footer {
+        text-align: center;
+    }
+
+    .column, .footer_logo:not(.column) {
+        display: none;
+    }
+    
+    .column1 {
+        width: auto;
+        margin: 20px auto;
+    }
+}
+
+
+
+
 

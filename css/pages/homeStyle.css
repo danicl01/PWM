@@ -93,3 +93,35 @@
     border-radius: 5px;
     margin: 10px;
 }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 980px) {
+    .cover {
+        display: block;
+        margin-bottom: 5em;
+    }
+
+    .main-zone-1{
+        max-width: 100%;
+    }
+
+    .square {
+        display: flex;
+        background-color: lightgray;
+        max-width: 100%;
+    }
+
+    .square-group{
+        padding: 3em;
+    }
+    
+    .main-zone-1 img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .main-zone-2 article {
+        margin: 15px 0;
+    }
+
+}

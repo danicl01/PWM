@@ -57,8 +57,13 @@ main {
 
 .main-zone-1 article {
     background-color: #E0E0E0;
-    border-radius: 12px;
-    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    flex-direction: column;
+    padding: 30px;
 }
 
 .main-zone-1 h1 {
@@ -96,29 +101,99 @@ main {
     color: blue;
 }
 
-.main-zone-1 label {
-    text-align: left;
-    font-weight: 600;
-}
-
-.main-zone-1 input {
-    width: 90%;
-    height: 21px;
-    margin-bottom: 10px;
-    border: 1px solid black;
-    border-radius: 3px;
-    font-size: 18px;
-}
-
 .main-zone-1 .login_button {
-    width: 90%;
+    width: 200px;
     height: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-weight: bold;
     cursor: pointer;
     background-color: #DFA40C;
     border-radius: 5px;
     border: 2px solid black;
+}
+
+.main-zone-1 .inputContainer {
+    position: relative;
+    justify-content: center;
+}
+
+.main-zone-1 .inputContainer input {
+    width: 280px;
+    padding: 13px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 15px ;
+    background: transparent;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 8px;
+    transition: 0.1s;
+}
+
+.main-zone-1 .inputContainer input[type="email"] {
+    margin-bottom: 24px;
+}
+
+.main-zone-1 .inputContainer label {
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    transform: translateY(0);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+}
+
+.main-zone-1 .inputContainer label[for="user-email"] {
+    top: 45px;
+    margin-left: 40px;
+}
+
+.main-zone-1 .inputContainer label[for="user-password"] {
+    top: 45px;
+    margin-left: 40px;
+}
+
+.main-zone-1 .inputContainer input:valid~label,
+.main-zone-1 .inputContainer input:focus~label {
+    transform: translateX(100px) translateY(-68px);
+    font-size: 15px;
+    padding: 5px 10px;
+    background: black;
+    letter-spacing: 3px;
+    color: white;
+    border: 2px;
+}
+
+.main-zone-1 .inputContainer input:valid,
+.main-zone-1 .inputContainer input:focus {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.main-zone-1 .inputContainer .input-error {
+    border-color: red;
+}
+
+.main-zone-1 .error-message {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.main-zone-1 .error-message[id="emailError"] {
+    margin-bottom: 5px;
+}
+
+.main-zone-1 .error-message[id="passwordError"] {
+    margin-top: 5px;
 }
 
 .login_button:hover {
@@ -129,7 +204,9 @@ main {
 }
 
 .main-zone-1 input:focus {
+    border: 2px solid #294D61;
     background-color: #B3D4FF;
+    outline: none;
 }
 
 aside {
