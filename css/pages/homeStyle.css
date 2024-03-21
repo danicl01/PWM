@@ -67,9 +67,7 @@
 }
 
 .square:hover {
-    align-items: center;
-    border-radius: 5px;
-    margin: 10px;
+    color:#666666;
 }
 
 .main-zone-2 article {
