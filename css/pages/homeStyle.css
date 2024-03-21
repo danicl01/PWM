@@ -37,12 +37,12 @@
 .main-zone-1 h2 {
     color: red;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin: 0.3em 0;
 }
 
 .main-zone-1 p {
-    font-size: 2.6em;
+    font-size: 2.6vw;
     font-weight: bold;
 }
 
@@ -66,7 +66,8 @@
     max-width: 90%;
     max-height: 90%;
     width: 40em;
-    height: 14em;
+    height: auto;
+    aspect-ratio: 3 / 1;
     margin: 1em;
     padding: 1em;
 }
@@ -76,20 +77,29 @@
 }
 
 .main-zone-2 article {
-    text-align: justify;
     margin: 0.7em;
-    max-height: 80%;
+    width: 90%;
+    height: 90%;
+    overflow: hidden; /* Evita que el contenido desborde del contenedor */
 }
 
 .main-zone-2 h2 {
-    font-size: 1.7em;
+    font-size: 1.5vw;
     color: red;
+    overflow: hidden; /* Asegura que el contenido extra no se desborde */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos para el texto desbordado */
+    max-width: 90%;
+    
 }
 
 .main-zone-2 p {
-    font-size: 1.5em;
+    font-size: 1.2vw;
     margin-top: 1em;
     font-weight: bold;
+    overflow: hidden; /* Asegura que el contenido extra no se desborde */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos para el texto desbordado */
+    max-width: 90%;
+    
 }
 
 .main-zone-3 {
@@ -99,6 +109,8 @@
 }
 
 .main-zone-3 article {
+    width: 90%;
+    height: 90%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -106,10 +118,13 @@
 }
 
 .main-zone-3 img {
-    width: 18em; 
-    height: 12em;
-    max-width: 100%;
-    max-height: 100%;
+    display: block; /* Para que el margin: auto; funcione */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+    width: 28em; 
+    height: auto;
+    aspect-ratio: 3 / 2;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 /* Estilos para dispositivos móviles */
@@ -133,6 +148,14 @@
         width: 100%;
         height: 66%;
     }
+
+    .main-zone-1 h2 {
+        font-size: 3.5vw;
+    }
+
+    .main-zone-1 p {
+        font-size: 5.6vw;
+    }
     
     .main-zone-1 img {
         max-width: 100%;
@@ -140,7 +163,17 @@
     }
 
     .main-zone-2 article {
-        margin: 15px 0;
+        margin: 1em 0;
+    }
+
+    .main-zone-2 h2 {
+        font-size: 3.5vw;
+        
+    }
+
+    .main-zone-2 p {
+        font-size: 3.2vw;
+        
     }
 
     
