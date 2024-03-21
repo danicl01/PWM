@@ -108,7 +108,7 @@
     .square {
         display: flex;
         background-color: lightgray;
-        margin: 2em 0;
+        max-width: 100%;
     }
 
     .square-group{
