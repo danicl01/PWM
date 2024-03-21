@@ -58,13 +58,18 @@
 }
 
 .square {
-    padding: 0 20px; /* Añade un margen interno a los lados de 20px */
-    margin-left: 30px;
-    margin-right: 30px;
+    display: flex;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 650px;
+    height: 225px;
+    margin: 30px;
 }
 
 .square:hover {
-    color:#666666;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .main-zone-2 article {
