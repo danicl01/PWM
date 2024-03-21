@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 8em;
 }
 
 .main-zone-1 {
     max-width: 100%;
+    max-height: 100%;
     width: auto;
     margin: 0 auto;
     text-align: center;
@@ -17,15 +18,14 @@
 }
 
 .main-zone-1 article {
-    margin-top: 30px;
     max-width: 100%;
     width: auto;
-    padding-bottom: 10px;
+    padding-bottom: 0.8em;
 }
 
 .main-zone-1 img {
     max-width: 80%;
-    max-height: 80%;
+    max-height: 100%;
     width: auto;
 }
 
@@ -37,33 +37,38 @@
 .main-zone-1 h2 {
     color: red;
     font-weight: bold;
-    font-size: 18px;
-    margin: 5px 0;
+    font-size: 1.5em;
+    margin: 0.3em 0;
 }
 
 .main-zone-1 p {
-    font-size: 42px;
+    font-size: 2.6em;
     font-weight: bold;
 }
 
 .main-zone-2 {
-    max-width: 100%;
+    width: 40%;
+    max-width: 40%;
+    max-height: 100%;
 }
 
 .square-group {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
-    max-width: 100%;
+    width: 40%;
+    height: 100%;
+    margin-right: 2em;;
 }
 
 .square {
     display: flex;
     background-color: lightgray;
-    border-radius: 5px;
-    width: 650px;
-    height: 225px;
-    margin: 30px;
+    max-width: 90%;
+    max-height: 90%;
+    width: 40em;
+    height: 14em;
+    margin: 1em;
+    padding: 1em;
 }
 
 .square:hover {
@@ -72,26 +77,39 @@
 
 .main-zone-2 article {
     text-align: justify;
-    margin: 15px;
+    margin: 0.7em;
+    max-height: 80%;
 }
 
 .main-zone-2 h2 {
-    font-size: 24px;
+    font-size: 1.7em;
     color: red;
 }
 
 .main-zone-2 p {
-    font-size: 32px;
-    margin-top: 28px;
+    font-size: 1.5em;
+    margin-top: 1em;
     font-weight: bold;
+}
+
+.main-zone-3 {
+    width: 60%;
+    max-width: 60%;
+    max-height: 100%;
 }
 
 .main-zone-3 article {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-radius: 5px;
-    margin: 10px;
+    margin: 0.8em;
+}
+
+.main-zone-3 img {
+    width: 18em; 
+    height: 12em;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Estilos para dispositivos móviles */
@@ -108,11 +126,12 @@
     .square {
         display: flex;
         background-color: lightgray;
-        max-width: 100%;
+        width: 100%;
     }
 
     .square-group{
-        padding: 3em;
+        width: 100%;
+        height: 66%;
     }
     
     .main-zone-1 img {
@@ -123,5 +142,7 @@
     .main-zone-2 article {
         margin: 15px 0;
     }
+
+    
 
 }
