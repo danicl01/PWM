@@ -36,8 +36,11 @@ header{
 
 .header_logo {
     margin: auto;
-    width: 12%;
-    height: 12%;
+    width: 12em;
+    height: auto;
+    aspect-ratio: 926/267;
+    /*width: 12%;
+    height: 12%; */
 }
 
 .header_button-login, .header_button-profile, .header_button-signUp{
@@ -84,9 +87,11 @@ header{
 }
 
 header .logo{
-    font-weight: bolder;
-    font-size: 25px;
-    color: #333;
+    display: block; /* Para que el margin: auto; funcione */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+    width: 6em;
+    height: auto;
+    aspect-ratio: 384/216;
 }
 
 header .navbar ul{
@@ -156,6 +161,10 @@ header label{
         display: initial;
     }
 
+    /*.header_logo {
+        width: 24%;
+    }*/
+
     header .navbar{
         position: absolute;
         top: 100%;
@@ -183,4 +192,3 @@ header label{
         display: block;
     }
 }
-
