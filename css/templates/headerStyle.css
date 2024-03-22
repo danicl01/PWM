@@ -167,42 +167,73 @@ ul.dropdown li:hover {
     transform: rotate(45deg) translate(-6px, -8px);
 }
 
-.open .mobile-menu {
-    display: flex;
+.open .mobile-menu ul{
+    top: 50px;
+   display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .mobile-menu {
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: calc(100vh - 50px);
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro con opacidad */
     width: 100%;
+    text-align: center; /* Centrar los elementos */
 }
 
+.mobile-menu ul {
+    padding: 0;
+    list-style: none;
+}
 
-.mobile-menu a {
-    text-decoration: none;
-    padding-left: 100%;
-    padding-right: 100%;
-    background: black;
-    opacity: 0.9;
+.mobile-menu li {
+    position: relative;
+    display: block;
+    padding: 10px 0; /* Espaciado interior */
 }
 
 .mobile-menu_link {
-    font-weight: bold;
-    color:white;
-    margin-bottom: 10px;
-    list-style: none;
-    padding: 2px 100% 2px 100%;
-    opacity: 0.9;
-    background: black;
-    border-bottom: 1px solid white;
+    color: #fff; /* Color del texto */
+    text-decoration: none;
+    display: block;
 }
 
+.mobile-menu_link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Cambia el color de fondo al pasar el ratón */
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.mobile-menu li:hover .dropdown {
+    display: block; /* Muestra el dropdown al pasar el ratón sobre el elemento padre */
+}
+
+
+
+
+/*
+ul li ul.dropdown {
+
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    top: 100%;
+}
+ */
+
+
+
+.mobile-menu_link:hover .dropdown {
+    display: block; /* Mostrar el menú desplegable al pasar el ratón */
+}
 
 @media (max-width: 960px) {
     .header_heading {
