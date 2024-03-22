@@ -9,8 +9,7 @@
     height: 50px;
 }
 
-/* Dispositivos de escritorio a partir de 1088px */
-@media only screen and (min-width: 1088px) {
+@media only screen and (min-width: 981px) {
 
     body {
         margin: 0;
@@ -119,9 +118,8 @@
 
 }
 
-/* Dispositivos móviles hasta 980px */
 @media only screen and (max-width: 980px) {
-
+    
     aside {
         display: none;
     }

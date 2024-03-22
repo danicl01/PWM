@@ -1,68 +1,48 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var email = document.getElementById("user-email");
-    var password = document.getElementById("user-password");
-    var loginForm = document.getElementById("loginForm");
+    const email = document.getElementById("user-email");
+    const password = document.getElementById("user-password");
+    const loginForm = document.getElementById("loginForm");
 
-    function validateEmail() {
-        var emailValue = email.value.trim();
-        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    function validateInput(input, regex, errorMessageId, errorMessage) {
+        const inputValue = input.value.trim();
 
-        if (emailValue == "") {
-            showError("Por favor, rellena este campo", "emailError");
-            email.setCustomValidity("");
-            email.classList.add("input-error");
-        } else if (!emailRegex.test(emailValue)) {
-            showError("Por favor, introduzca un correo electrónico válido", "emailError");
-            email.setCustomValidity("Por favor, introduzca un correo electrónico válido");
-            email.classList.add("input-error");
+        if (inputValue == "") {
+            showError("Por favor, rellena este campo", errorMessageId, input);
+        } else if (!regex.test(inputValue)) {
+            showError(errorMessage, errorMessageId, input);
         } else {
-            showError("", "emailError");
-            email.setCustomValidity("");
-            email.classList.remove("input-error");
+            showError("", errorMessageId, input);
         }
     }
 
-    function validatePassword() {
-        var passwordValue = password.value.trim();
-        var passwordRegex =  /^.{8,}$/;
+    function showError(message, errorMessageId, input) {
+        const errorElement = document.getElementById(errorMessageId);
+        errorElement.innerText = message;
 
-        if (passwordValue == "") {
-            showError("Por favor, rellena este campo", "passwordError");
-            password.setCustomValidity("");
-            password.classList.add("input-error");
-        } else if (!passwordRegex.test(passwordValue)) {
-            showError("Por favor, ingresa la contraseña válida", "passwordError");
-            password.setCustomValidity("Por favor, ingresa la contraseña válida");
-            password.classList.add("input-error");
+        if (message != "") {
+            input.classList.add("input-error");
         } else {
-            showError("", "passwordError");
-            password.setCustomValidity("");
-            password.classList.remove("input-error");
+            input.classList.remove("input-error");
         }
     }
 
     function navigateToHomePage() {
-        var emailValue = email.value.trim();
-        var passwordValue = password.value.trim();
+        const emailValue = email.value.trim();
+        const passwordValue = password.value.trim();
 
         if (emailValue != "" && passwordValue != "") {
             window.location.href = "homePage.html";
         }
     }
 
-    function showError(message, errorMessageId) {
-        var errorElement = document.getElementById(errorMessageId);
-        errorElement.innerText = message;
-    }
-
     function validateForm(event) {
         event.preventDefault();
-        validateEmail();
-        validatePassword();
+        validateInput(email, /^[^\s@]+@[^\s@]+\.[^\s@]+$/, "emailError", "Por favor, introduzca un correo electrónico válido");
+        validateInput(password, /^.{8,}$/, "passwordError", "Por favor, ingrese la contraseña válida");
         navigateToHomePage();
     }
 
-    email.addEventListener("blur", validateEmail);
-    password.addEventListener("blur", validatePassword);
+    email.addEventListener("blur", () => validateInput(email, /^[^\s@]+@[^\s@]+\.[^\s@]+$/, "emailError", "Por favor, introduzca un correo electrónico válido"));
+    password.addEventListener("blur", () => validateInput(password, /^.{8,}$/, "passwordError", "Por favor, ingrese la contraseña válida"));
     loginForm.addEventListener("submit", validateForm);
 });
