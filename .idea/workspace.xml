@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Responsive header (Desktop - mobile)">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/templates/headerFLStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerFLStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/ratingStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/ratingStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/templates/headerFLStyle.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/templates/headerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/calendarPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/calendarPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/driversPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/driversPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/driversRatingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/driversRatingPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/pages/formulaLearningPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/formulaLearningPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/mainNewsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/mainNewsPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/newsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/newsPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/secondaryNewsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/secondaryNewsPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/teamsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/teamsPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/teamsRatingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/teamsRatingPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/templates/headerFL.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/headerFL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/templates/headerFL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templates/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/templates/headerFL.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +105,7 @@
       <workItem from="1710431379080" duration="28303000" />
       <workItem from="1710948292012" duration="8729000" />
       <workItem from="1711113303066" duration="2097000" />
+      <workItem from="1711183479862" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />

@@ -1,77 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Header 1</title>
-        <link rel="stylesheet" type="text/css" href="../../css/templates/headerStyle.css">
-    </head>
-    <body>
-        <header>
-            <div class="header_section1">
-                <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                    <div class="mobile-menu">
-                        <ul>
-                            <li class="mobile-menu_link">News ▼<a href="../pages/newsPage.html"></a>
-                                <ul class="dropdown">
-                                    <li class="mobile-menu_link"><a href="../pages/newsPage.html">Interviews</a></li>
-                                    <li class="mobile-menu_link"><a href="../pages/newsPage.html">Race summaries</a></li>
-                                    <li class="mobile-menu_link"><a href="../pages/newsPage.html">Teams and Drivers</a></li>
-                                    <li class="mobile-menu_link"> <a href="../pages/newsPage.html">Games</a></li>
-                                </ul>
-                            </li>
-                            <li class="mobile-menu_link"><a href="../pages/calendarPage.html">Calendar</a></li>
-                            <li class="mobile-menu_link">Results ▼<a href="../pages/driversRatingPage.html"></a>
-                                <ul class="dropdown">
-                                    <li class="mobile-menu_link"><a href="../pages/teamsRatingPage.html">Teams</a></li>
-                                    <li class="mobile-menu_link"><a href="../pages/driversRatingPage.html">Drivers</a></li>
-                                </ul>
-                            </li>
-                            <li class="mobile-menu_link"><a href="../pages/teamsPage.html">Teams</a></li>
-                            <li class="mobile-menu_link"><a href="../pages/driversPage.html">Drivers</a></li>
-                            <li class="mobile-menu_link"><a href="../pages/formulaLearningPage.html">F Learning</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-                <img class="header_logo" src="../../assets/images/mock_and_logos/Logo.webp" alt="Logo JDP">
-                <a href="../pages/registerPage.html">
-                    <button class="header_button-signUp">Sign Up</button>
-                </a>
-                <a href="../pages/loginPage.html">
-                    <button class="header_button-login">Log In</button>
-                </a>
-                <button class="header_button-profile"><img src="../../assets/icons/user-icon.png" alt="User Icon"></button>
-            </div>
-            <div class="header_section2">
-                <a href="../pages/homePage.html">
-                    <img class="header_heading" src="../../assets/images/mock_and_logos/F1_logo2.png" alt="Logo F1">
-                </a>
-                <nav class="nav">
-                    <ul>
-                        <li class="nav_link">News ▼<a href="../pages/newsPage.html"></a>
-                            <ul class="dropdown">
-                                <li class="nav_link"><a href="../pages/newsPage.html">Interviews</a></li>
-                                <li class="nav_link"><a href="../pages/newsPage.html">Race summaries</a></li>
-                                <li class="nav_link"><a href="../pages/newsPage.html">Teams and Drivers</a></li>
-                                <li class="nav_link"><a href="../pages/newsPage.html">Games</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav_link"><a href="../pages/calendarPage.html">Calendar</a></li>
-                        <li class="nav_link">Results ▼<a href="../pages/driversRatingPage.html"></a>
-                            <ul class="dropdown">
-                                <li class="nav_link"><a href="../pages/teamsRatingPage.html">Teams</a></li>
-                                <li class="nav_link"><a href="../pages/driversRatingPage.html">Drivers</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav_link"><a href="../pages/teamsPage.html">Teams</a></li>
-                        <li class="nav_link"><a href="../pages/driversPage.html">Drivers</a></li>
-                        <li class="nav_link"><a href="../pages/formulaLearningPage.html">F Learning</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Header 1</title>
+    <link rel="stylesheet" type="text/css" href="../../css/templates/headerStyle.css">
+</head>
+<body>
+<div class="header_section1">
+    <img class="header_logo" src="../../assets/images/mock_and_logos/Logo.webp" alt="Logo JDP">
+    <a href="../pages/registerPage.html">
+        <button class="header_button-signUp">Sign Up</button>
+    </a>
+    <a href="../pages/loginPage.html">
+        <button class="header_button-login">Log In</button>
+    </a>
+    <button class="header_button-profile"><img src="../../assets/icons/user-icon.png" alt="User Icon"></button>
+</div>
+<header>
+    <!-- <a href="#" class="logo">LOGO</a> -->
+    <a href="../pages/homePage.html">
+        <img class="logo" src="../../assets/images/mock_and_logos/F1_logo2.png" alt="Logo F1">
+    </a>
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../pages/newsPage.html">News ▼</a>
+                <ul>
+                    <li><a href="../pages/newsPage.html">Interviews</a></li>
+                    <li><a href="../pages/newsPage.html">Race summaries</a></li>
+                    <li><a href="../pages/newsPage.html">Teams and Drivers News</a></li>
+                    <li><a href="../pages/newsPage.html">Games</a></li>
+                </ul>
+            </li>
+            <li><a href="../pages/calendarPage.html">Calendar</a></li>
+            <li><a href="../pages/driversRatingPage.html">Results ▼</a>
+                <ul>
+                    <li><a href="../pages/teamsRatingPage.html">Teams</a></li>
+                    <li><a href="../pages/driversRatingPage.html">Drivers</a></li>
+                </ul>
+            </li>
+            <li><a href="../pages/teamsPage.html">Teams</a></li>
+            <li><a href="../pages/driversPage.html">Drivers</a></li>
+            <li><a href="../pages/formulaLearningPage.html">Formula Learning</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
 </html>
