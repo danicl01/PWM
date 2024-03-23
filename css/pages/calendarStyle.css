@@ -107,6 +107,10 @@ header {
     display: block;
 }
 
+.pagination-buttons {
+    display: none;
+}
+
 .main-zone-1 p, .main-zone-2 p {
     border-radius: 3px;
     text-align: center;
@@ -151,4 +155,40 @@ footer {
 .footer_logo {
     margin: 50px;
     border-radius: 8px;
+}
+
+@media only screen and (max-width: 980px) {
+    .calendarHeader {
+        font-size: 0.75em;
+    }
+
+    .square-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .square-group .square {
+        width: 18.75em;
+        height: 12.5em;
+        margin: 0.63em;
+    }
+
+    .pagination-buttons {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: -4.38em;
+        margin-bottom: 1.6em;
+    }
+
+    .pagination-buttons button {
+        padding: 0.63em 0.98em;
+        margin: 0.5em;
+        border: none;
+        border-radius: 0.4em;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
 }
