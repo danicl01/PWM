@@ -9,12 +9,7 @@
 }
 
 body {
-    /*background-color: #d9dade;/*
-     */
-
-    background: linear-gradient(to right, #eee, #555);
-
-
+    background-color: #d9dade;
 }
 
 main {
@@ -25,6 +20,7 @@ main {
     font-size: 2em;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-family: 'Formula1-Bold';
 }
 
 .ranking-table {
@@ -37,7 +33,6 @@ main {
     max-width: 80%;
     border-radius: 20px;
     padding-bottom: 30px;
-    box-shadow: 5px 0px 10px 0px rgba(255, 255, 255, 0.75);
 }
 
 
