@@ -6,7 +6,7 @@
 .cover {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 4em;
     margin-top: 4em;
 }
@@ -63,7 +63,7 @@
     flex-direction: column;
     width: 40%;
     height: 100%;
-    margin-right: 2em;;
+    margin-right: 2em;
 }
 
 .square {
@@ -94,7 +94,7 @@
     color: red;
     overflow: hidden; /* Asegura que el contenido extra no se desborde */
     text-overflow: ellipsis; /* Agrega puntos suspensivos para el texto desbordado */
-    max-width: 90%;
+    max-width: 100%;
     
 }
 
@@ -128,7 +128,7 @@
     margin: 0 auto; /* Centra horizontalmente la imagen */
     width: 28em; 
     height: auto;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 128 / 72;
     max-width: 90%;
     max-height: 90%;
 }
