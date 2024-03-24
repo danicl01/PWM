@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="results responsive" />
+    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="results responsive v2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/calendarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/calendarStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/ratingStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/ratingStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/calendarPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/calendarPage.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LG\WebstormProjects\F1_App\assets\images\backgrounds" />
       <recent name="C:\Users\pablo\OneDrive\Escritorio\PWM\html\templates" />
       <recent name="C:\Users\pablo\OneDrive\Escritorio\PWM\html\pages" />
       <recent name="C:\Users\pablo\OneDrive\Escritorio\PWM\js\data" />
       <recent name="C:\Users\pablo\OneDrive\Escritorio\PWM\js\templates" />
-      <recent name="C:\Users\pablo\OneDrive\Escritorio\PWM\js\pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,7 +94,7 @@
       <workItem from="1711113303066" duration="2097000" />
       <workItem from="1711183479862" duration="2078000" />
       <workItem from="1711227172411" duration="655000" />
-      <workItem from="1711273776850" duration="7953000" />
+      <workItem from="1711273776850" duration="10644000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />
@@ -171,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711309001163</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="results responsive v2">
+      <option name="closed" value="true" />
+      <created>1711309325620</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711309325620</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +200,7 @@
     <MESSAGE value="Header update and added to all pages" />
     <MESSAGE value="Header responsive done. Small changes on UI" />
     <MESSAGE value="results responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="results responsive" />
+    <MESSAGE value="results responsive v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="results responsive v2" />
   </component>
 </project>

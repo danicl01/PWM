@@ -9,7 +9,12 @@
 }
 
 body {
-    background-color: #d9dade;
+    /*background-color: #d9dade;*/
+    background-image: url('../../assets/images/backgrounds/results_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
 }
 
 main {

@@ -17,6 +17,14 @@ html {
     z-index: 1;
 }
 
+body {
+    background-image: url('../../assets/images/worldMapBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px) grayscale(70%);
+}
+
 .cover {
     display: flex;
     justify-content: space-between;
@@ -30,25 +38,14 @@ html {
     height: 100%;
 }
 
-.background-container img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 120vh;
-    z-index: -1;
-}
-
-.background-container img[src="../../assets/images/worldMapBackground.jpg"] {
-    opacity: 0.8;
-}
 
 .calendarHeader {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 30px;
     position: relative;
-    font-family: 'Formula1-Wide';
+    font-family: 'Formula1-Bold';
+    font-size: 2em;
 }
 
 .square-group {
