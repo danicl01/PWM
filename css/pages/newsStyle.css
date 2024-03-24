@@ -10,26 +10,46 @@ html {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 4em;
+    margin-top: 4em;
 }
 
 .main-zone-1 {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    max-height: 100%;
+    text-align: center; 
     display: block;
-    align-items: center;
     justify-items: center;
-    margin-left: 45px;
-    margin-top: 15px;
+    margin-left: 3em;
+    margin-top: 1em;
 }
 
 .main-zone-1 article {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
     align-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 1em;
     background-color: #0F969C;
 }
 
+.main-zone-1 img {
+    max-width: 100%;
+    max-height: 80%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+}
+
 .main-zone-1 h2 {
+    max-width: 100%;
+    max-height: 20%;
     text-align: center;
     color: black;
+    font-size: 2vw;
+    overflow: hidden; /* Evita que el contenido desborde del contenedor */
 }
 
 .main-zone-1 p {
@@ -38,55 +58,128 @@ html {
 }
 
 .main-zone-2 {
+    width: 25%;
+    max-width: 25%;
+    height: auto;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 15px;
+    justify-items: center;
+    margin-left: 3em;
+    margin-top: 1em;
+    overflow: hidden; /* Evita que el contenido desborde del contenedor */
+}
+
+.main-zone-2 img {
+    width: 100%;
+    height: 80%;
+    max-height: 80%;
 }
 
 .main-zone-2 h2 {
     color: black;
     text-align: center;
+    max-width: 100%;
+    max-height: 20%;
+    overflow: hidden; /* Asegura que el contenido extra no se desborde */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos para el texto desbordado */
+
 }
 
 .main-zone-3 {
+    width: 25%;
+    max-width: 25%;
+    height: auto;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
-    margin-top: 15px;
+    justify-items: center;
+    margin-right: 3em;
+    margin-top: 1em;
+}
+
+.main-zone-3 img {
+    width: 100%;
+    height: 80%;
+    max-height: 80%;
 }
 
 .main-zone-3 h2 {
     color: black;
     text-align: center;
+    max-width: 100%;
+    max-height: 20%;
+    text-overflow: ellipsis; /* Agrega puntos suspensivos para el texto desbordado */
 }
 
+/********************************* ARTICLE 2 ******************************************/
 .article2 {
+    font-size: 0.7vw;
     display: flex;
     flex-direction: row;
+    overflow: hidden; /* Evita que el contenido desborde del contenedor */
 }
 
 .article-2-image {
-    margin-top: 25px;
+    width: 100%;
+    height: 80%;
+    aspect-ratio: 3/2;
+    max-height: 80%;
+    margin-top: 1em;
     align-content: center;
-    padding-bottom: 5px;
+    padding-bottom: 0.3em;
     background-color: #0F969C;
 }
 
-footer {
-    font-family:'Inter', sans-serif;
-    background: linear-gradient(to bottom, #294D61, #000000);
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+.article-2-h2 {
+    width: 100%;
+    height: 20%;
+    max-height: 20%;
+    overflow: hidden; /* Asegura que el contenido extra no se desborde */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos para el texto desbordado */
 }
 
-.column {
-    width: 15%;
-}
 
-.footer_logo {
-    margin: 50px;
-    border-radius: 8px;
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 980px) {
+    .cover {
+        display: block;
+        margin-bottom: 5em;
+    }
+    
+    .main-zone-1 {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .main-zone-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-zone-1 h2 {
+        font-size: 6vw;
+    }
+
+    .main-zone-2 {
+        margin:0;
+        margin-top: 5em;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .main-zone-3 {
+        margin:0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .article2{
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 3vw;
+        flex-direction: column;
+    }
+
 }
