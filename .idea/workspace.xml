@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Header update and added to all pages">
+    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Header responsive done. Small changes on UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/calendarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/calendarStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/driversStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/driversStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/homeStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/homeStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pages/ratingStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/ratingStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/teamsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/teamsStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/templates/headerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/driversRatingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/driversRatingPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/teamsRatingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/teamsRatingPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/data/driversresult2023_loadDataJsonFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data/driversresult2023_loadDataJsonFile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/data/teamResults2023_loadDataJsonFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data/teamResults2023_loadDataJsonFile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,30 +41,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.formulaLearningPage.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.header2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.headerFL.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.headerMock.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.homePage.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LG/WebstormProjects/F1_App&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.formulaLearningPage.html.executor": "Run",
+    "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.header2.html.executor": "Run",
+    "JavaScript Debug.headerFL.html.executor": "Run",
+    "JavaScript Debug.headerMock.html.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Run",
+    "JavaScript Debug.homePage.html.executor": "Run",
+    "JavaScript Debug.teamsRatingPage.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/LG/WebstormProjects/F1_App",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "liveEdit",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pablo\OneDrive\Escritorio\PWM\html\templates" />
@@ -97,7 +96,7 @@
       <workItem from="1711113303066" duration="2097000" />
       <workItem from="1711183479862" duration="2078000" />
       <workItem from="1711227172411" duration="655000" />
-      <workItem from="1711273776850" duration="3042000" />
+      <workItem from="1711273776850" duration="7595000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />
@@ -163,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711227202252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Header responsive done. Small changes on UI">
+      <option name="closed" value="true" />
+      <created>1711277530386</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711277530386</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +184,7 @@
     <MESSAGE value="mockup header created (test)" />
     <MESSAGE value="Responsive header (Desktop - mobile)" />
     <MESSAGE value="Header update and added to all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header update and added to all pages" />
+    <MESSAGE value="Header responsive done. Small changes on UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header responsive done. Small changes on UI" />
   </component>
 </project>

@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             function buildTable(data) {
                 const tableBody = document.querySelector("table tbody");
+                const screenWidth = window.innerWidth;
 
                 tableBody.innerHTML = "";
 
@@ -18,16 +19,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     row.className += index % 2 === 0 ? " even" : " odd";
 
-                    row.innerHTML = `
-            <td>${entry.Position}</td>
-            <td>${entry.Driver}</td>
-            <td>${entry.Team}</td>
-            <td>${entry.Points}</td>
-            <td>${entry.Wins || ""}</td>
-            <td>${entry.Podiums || ""}</td>
-            <td>${entry.Scores || ""}</td>
-            <td>${entry.Nationality}</td>
-          `;
+                    let rowContent = `
+                        <td>${entry.Position}</td>
+                        <td>${entry.Driver}</td>
+                        <td>${entry.Team}</td>
+                        <td>${entry.Points}</td>
+                    `;
+
+                    // Agregar columnas de Wins y Nationality solo si el ancho de la pantalla es mayor que 980px
+                    if (screenWidth > 980) {
+                        rowContent += `
+                            <td class="extra-column">${entry.Wins || ""}</td>
+                            <td class="extra-column">${entry.Podiums || ""}</td>
+                            <td class="extra-column">${entry.Scores || ""}</td>
+                            <td>${entry.Nationality}</td>
+                        `;
+                    }
+
+                    row.innerHTML = rowContent;
                     tableBody.appendChild(row);
                 });
             }

@@ -5,25 +5,26 @@
 #header-container{
     top:0;
     position: sticky;
-}
-
-body {
-    background-color: #d9dade;
-}
-
-#header-container{
     background: white;
 }
 
+body {
+    /*background-color: #d9dade;/*
+     */
+
+    background: linear-gradient(to right, #eee, #555);
+
+
+}
+
 main {
-    padding-bottom: 50px;
+    padding-bottom: 4em;
 }
 
 .ranking-header {
-    font-size: 28px;
+    font-size: 2em;
     margin-top: 20px;
     margin-bottom: 30px;
-
 }
 
 .ranking-table {
@@ -36,6 +37,7 @@ main {
     max-width: 80%;
     border-radius: 20px;
     padding-bottom: 30px;
+    box-shadow: 5px 0px 10px 0px rgba(255, 255, 255, 0.75);
 }
 
 
@@ -54,4 +56,10 @@ table, th, td {
 
 .first-row {
     background-color: #f2d45c;
+}
+
+@media only screen and (max-width: 980px) {
+    .extra-column{
+        display: none;
+    }
 }
