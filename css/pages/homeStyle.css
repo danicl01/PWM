@@ -1,8 +1,14 @@
+#header-container{
+    top:0;
+    position: sticky;
+}
+
 .cover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8em;
+    margin-bottom: 4em;
+    margin-top: 4em;
 }
 
 .main-zone-1 {

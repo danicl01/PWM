@@ -6,8 +6,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-transform: capitalize;
     text-decoration: none;
 }
 
@@ -17,7 +15,6 @@ body{
 
 header{
     font-family: 'Formula1-Bold';
-    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -45,8 +42,6 @@ header{
     width: 12em;
     height: auto;
     aspect-ratio: 926/267;
-    /*width: 12%;
-    height: 12%; */
 }
 
 .header_button-login, .header_button-profile, .header_button-signUp{
@@ -68,7 +63,7 @@ header{
     padding: 12px 24px;
     color: #0F969C;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 50px;
     border-radius: 25px;
     border-width: 2px;
     border-color: #0F969C;
@@ -93,8 +88,8 @@ header{
 }
 
 header .logo{
-    display: block; /* Para que el margin: auto; funcione */
-    margin: 0 auto; /* Centra horizontalmente la imagen */
+    display: block;
+    margin: 0 auto;
     width: 6em;
     height: auto;
     aspect-ratio: 384/216;
@@ -144,32 +139,41 @@ header .navbar ul li:hover >ul{
     display: none;
 }
 
-#menu-bar label{
-    color:white;
-}
-
 header label{
-    font-size: 20px;
-    color: #333;
+    font-size: 18px;
+    color: #fff;
     cursor: pointer;
     display: none;
+}
+
+header label:hover{
+    color: #333;
 }
 
 
 
 @media(max-width: 980px) {
 
+    .header_logo {
+        width: 8em;
+        aspect-ratio: 926/267;
+    }
+
+    .header_button-login, .header_button-signUp{
+        margin-right: 20px;
+        padding: 9px 18px;
+    }
     header{
         padding: 20px;
+    }
+
+    header .logo{
+        width: 4em;
     }
 
     header label{
         display: initial;
     }
-
-    /*.header_logo {
-        width: 24%;
-    }*/
 
     header .navbar{
         position: absolute;
@@ -191,7 +195,11 @@ header label{
     }
 
     header .navbar ul li ul li{
-        background: #6DA5C0;
+        background: #3DA5C0;
+    }
+
+    header .navbar ul li ul li a:hover{
+        background: #3DA5C0;
     }
 
     #menu-bar:checked~ .navbar{

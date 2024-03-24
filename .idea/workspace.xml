@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Responsive header (Desktop - mobile)">
+    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="Header update and added to all pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/calendarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/calendarStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/driversStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/driversStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/homeStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/homeStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pages/ratingStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/ratingStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/templates/headerFLStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/teamsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/teamsStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/templates/headerStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templates/headerStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/calendarPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/calendarPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/driversPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/driversPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/driversRatingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/driversRatingPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/formulaLearningPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/formulaLearningPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/homePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/mainNewsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/mainNewsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/newsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/newsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/secondaryNewsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/secondaryNewsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/teamsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/teamsPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/teamsRatingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/teamsRatingPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/templates/headerFL.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/templates/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/templates/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/templates/headerFL.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +96,8 @@
       <workItem from="1710948292012" duration="8729000" />
       <workItem from="1711113303066" duration="2097000" />
       <workItem from="1711183479862" duration="2078000" />
+      <workItem from="1711227172411" duration="655000" />
+      <workItem from="1711273776850" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />
@@ -163,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710713108572</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Header update and added to all pages">
+      <option name="closed" value="true" />
+      <created>1711227202252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711227202252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +176,7 @@
     <MESSAGE value="Little changes on the header, and added some style for the Formula Learning section." />
     <MESSAGE value="mockup header created (test)" />
     <MESSAGE value="Responsive header (Desktop - mobile)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive header (Desktop - mobile)" />
+    <MESSAGE value="Header update and added to all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header update and added to all pages" />
   </component>
 </project>
