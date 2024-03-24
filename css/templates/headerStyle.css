@@ -1,8 +1,12 @@
+@font-face {
+    font-family: 'Formula1-Bold';
+    src: url('../../assets/fonts/Formula1-Bold.woff') format(woff);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -12,6 +16,7 @@ body{
 }
 
 header{
+    font-family: 'Formula1-Bold';
     position: sticky;
     top: 0;
     left: 0;
@@ -31,6 +36,7 @@ header{
     align-items: center;
     justify-content: space-between;
     color: white;
+    background-color: white;
     padding: 5px;
 }
 
