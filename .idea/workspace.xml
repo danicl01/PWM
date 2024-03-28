@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="results responsive v2">
+    <list default="true" id="4775124f-4c69-408a-917f-f6ec2bb5593c" name="Changes" comment="calendar and rating page background with filters">
+      <change afterPath="$PROJECT_DIR$/data/drivers_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/teams_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/data/drivers_loadDataJsonFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/data/teams_loadDataJsonFile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/calendarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/calendarStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages/ratingStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/ratingStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pages/calendarPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/calendarPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/drivers/checo_perez.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/drivers/checo_perez.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/drivers/max_verstappen.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/drivers/max_verstappen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/driversStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/driversStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/teamsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/teamsStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/driversPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/driversPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/pages/teamsPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pages/teamsPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,31 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.formulaLearningPage.html.executor": "Run",
-    "JavaScript Debug.header.html.executor": "Run",
-    "JavaScript Debug.header2.html.executor": "Run",
-    "JavaScript Debug.headerFL.html.executor": "Run",
-    "JavaScript Debug.headerMock.html.executor": "Run",
-    "JavaScript Debug.home.html.executor": "Run",
-    "JavaScript Debug.homePage.html.executor": "Run",
-    "JavaScript Debug.teamsRatingPage.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/LG/WebstormProjects/F1_App",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "liveEdit",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.formulaLearningPage.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.header2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.headerFL.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.headerMock.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.homePage.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.teamsRatingPage.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LG/WebstormProjects/F1_App&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LG\WebstormProjects\F1_App\assets\images\backgrounds" />
@@ -94,7 +101,9 @@
       <workItem from="1711113303066" duration="2097000" />
       <workItem from="1711183479862" duration="2078000" />
       <workItem from="1711227172411" duration="655000" />
-      <workItem from="1711273776850" duration="10644000" />
+      <workItem from="1711273776850" duration="11301000" />
+      <workItem from="1711465749997" duration="6819000" />
+      <workItem from="1711623616205" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files, added folders in order to have better file organization.">
       <option name="closed" value="true" />
@@ -184,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711309325620</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="calendar and rating page background with filters">
+      <option name="closed" value="true" />
+      <created>1711319999104</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711319999104</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +218,7 @@
     <MESSAGE value="Header responsive done. Small changes on UI" />
     <MESSAGE value="results responsive" />
     <MESSAGE value="results responsive v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="results responsive v2" />
+    <MESSAGE value="calendar and rating page background with filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="calendar and rating page background with filters" />
   </component>
 </project>
