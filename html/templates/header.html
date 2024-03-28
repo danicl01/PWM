@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Header 1</title>
-    <link rel="stylesheet" type="text/css" href="../../css/templates/headerStyle.css">
-</head>
-<body>
-<div class="header_section1">
-    <img class="header_logo" src="../../assets/images/mock_and_logos/Logo.webp" alt="Logo JDP">
-    <a href="../pages/registerPage.html">
-        <button class="header_button-signUp">Sign Up</button>
-    </a>
-    <a href="../pages/loginPage.html">
-        <button class="header_button-login">Log In</button>
-    </a>
-    <button class="header_button-profile"><img src="../../assets/icons/user-icon.png" alt="User Icon"></button>
-</div>
-<header>
-    <a href="../pages/homePage.html">
-        <img class="logo" src="../../assets/images/mock_and_logos/F1_logo2.png" alt="Logo F1">
-    </a>
-    <input type="checkbox" id="menu-bar">
-    <label for="menu-bar">Menu</label>
-    <nav class="navbar">
-        <ul>
-            <li><a href="../pages/newsPage.html">News ▼</a>
+    <head>
+        <meta charset="UTF-8">
+        <title>Header 1</title>
+        <link rel="stylesheet" type="text/css" href="../../css/templates/headerStyle.css">
+        <script src="../../js/templates/header.js"></script>
+    </head>
+    <body>
+        <div id="header-container">
+            <div class="header_section1">
+                <img class="header_logo" src="../../assets/images/mock_and_logos/Logo.webp" alt="Logo JDP">
+                <a href="../pages/registerPage.html">
+                    <button class="header_button-signUp">Sign Up</button>
+                </a>
+                <a href="../pages/loginPage.html">
+                    <button class="header_button-login">Log In</button>
+                </a>
+                <button id="logoutButton" class="header_button-logout hidden">Log Out</button>
+                <button class="header_button-profile"><img src="../../assets/icons/user-icon.png" width="50" height="45" alt="User Icon"></button>
+            </div>
+        </div>
+        <header>
+            <a href="../pages/homePage.html">
+                <img class="logo" src="../../assets/images/mock_and_logos/F1_logo2.png" alt="Logo F1">
+            </a>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">Menu</label>
+            <nav class="navbar">
                 <ul>
-                    <li><a href="../pages/newsPage.html">Interviews</a></li>
-                    <li><a href="../pages/newsPage.html">Race summaries</a></li>
-                    <li><a href="../pages/newsPage.html">Teams and Drivers News</a></li>
-                    <li><a href="../pages/newsPage.html">Games</a></li>
+                    <li><a href="../pages/newsPage.html">News ▼</a>
+                        <ul>
+                            <li><a href="../pages/newsPage.html">Interviews</a></li>
+                            <li><a href="../pages/newsPage.html">Race summaries</a></li>
+                            <li><a href="../pages/newsPage.html">Teams and Drivers News</a></li>
+                            <li><a href="../pages/newsPage.html">Games</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../pages/calendarPage.html">Calendar</a></li>
+                    <li><a href="../pages/driversRatingPage.html">Results ▼</a>
+                        <ul>
+                            <li><a href="../pages/teamsRatingPage.html">Teams</a></li>
+                            <li><a href="../pages/driversRatingPage.html">Drivers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../pages/teamsPage.html">Teams</a></li>
+                    <li><a href="../pages/driversPage.html">Drivers</a></li>
+                    <li><a href="../pages/formulaLearningPage.html">Formula Learning</a></li>
                 </ul>
-            </li>
-            <li><a href="../pages/calendarPage.html">Calendar</a></li>
-            <li><a href="../pages/driversRatingPage.html">Results ▼</a>
-                <ul>
-                    <li><a href="../pages/teamsRatingPage.html">Teams</a></li>
-                    <li><a href="../pages/driversRatingPage.html">Drivers</a></li>
-                </ul>
-            </li>
-            <li><a href="../pages/teamsPage.html">Teams</a></li>
-            <li><a href="../pages/driversPage.html">Drivers</a></li>
-            <li><a href="../pages/formulaLearningPage.html">Formula Learning</a></li>
-        </ul>
-    </nav>
-</header>
-</body>
+            </nav>
+        </header>
+    </body>
 </html>

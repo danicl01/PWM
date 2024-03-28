@@ -9,11 +9,11 @@
     text-decoration: none;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-header{
+header {
     font-family: 'Formula1-Bold';
     top: 0;
     left: 0;
@@ -37,6 +37,10 @@ header{
     padding: 5px;
 }
 
+.header_section1 .hidden {
+    display: none;
+}
+
 .header_logo {
     margin: auto;
     width: 12em;
@@ -44,7 +48,7 @@ header{
     aspect-ratio: 926/267;
 }
 
-.header_button-login, .header_button-profile, .header_button-signUp{
+.header_button-login, .header_button-profile, .header_button-signUp, .header_button-logout {
     cursor: pointer;
     border: none;
 }
@@ -71,6 +75,28 @@ header{
     transition: background-color 0.5s ease;
 }
 
+.header_button-logout {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #0F969C;
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: 2px solid #0F969C;
+    background-color: #D7E7F7;
+    transition: background-color 0.5s ease;
+}
+
+.header_button-profile {
+    background-color: white;
+    margin-right: 50px;
+}
+
+.header_button-logout:hover {
+    background-color: #0F969C;
+    color: white;
+}
+
 .header_button-signUp:hover {
     background-color: lightgray;
 }
@@ -79,15 +105,7 @@ header{
     background-color: #d7e7f7;
 }
 
-.header_button-profile {
-    display: none;
-    background-color: white;
-    margin-right: 40px;
-    width: 40px;
-    height: 40px;
-}
-
-header .logo{
+header .logo {
     display: block;
     margin: 0 auto;
     width: 6em;
@@ -95,30 +113,30 @@ header .logo{
     aspect-ratio: 384/216;
 }
 
-header .navbar ul{
+header .navbar ul {
     list-style: none;
 }
 
-header .navbar ul li{
+header .navbar ul li {
     position: relative;
     float: left;
 }
 
-header .navbar ul li a{
+header .navbar ul li a {
     font-size: 20px;
     padding: 20px;
     color: #fff;
     display: block;
 }
 
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
     background-color: #6DA5C0;
     color:#294D61;
     font-weight: bold;
 
 }
 
-header .navbar ul li ul{
+header .navbar ul li ul {
     position: absolute;
     left: 0;
     width: 200px;
@@ -126,31 +144,29 @@ header .navbar ul li ul{
     display: none;
 }
 
-header .navbar ul li ul li{
+header .navbar ul li ul li {
     width: 100%;
     border-top: 1px solid rgba(0,0,0,.1);
 }
 
-header .navbar ul li:hover >ul{
+header .navbar ul li:hover >ul {
     display: initial;
 }
 
-#menu-bar{
+#menu-bar {
     display: none;
 }
 
-header label{
+header label {
     font-size: 18px;
     color: #fff;
     cursor: pointer;
     display: none;
 }
 
-header label:hover{
+header label:hover {
     color: #333;
 }
-
-
 
 @media(max-width: 980px) {
 
@@ -159,23 +175,24 @@ header label:hover{
         aspect-ratio: 926/267;
     }
 
-    .header_button-login, .header_button-signUp{
+    .header_button-login, .header_button-signUp, .header_button-profile, .header_button-logout {
         margin-right: 20px;
         padding: 9px 18px;
     }
-    header{
+
+    header {
         padding: 20px;
     }
 
-    header .logo{
+    header .logo {
         width: 4em;
     }
 
-    header label{
+    header label {
         display: initial;
     }
 
-    header .navbar{
+    header .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -185,24 +202,24 @@ header label:hover{
         display: none;
     }
 
-    header .navbar ul li{
+    header .navbar ul li {
         width:100%;
     }
 
-    header .navbar ul li ul{
+    header .navbar ul li ul {
         position: relative;
         width:100%;
     }
 
-    header .navbar ul li ul li{
+    header .navbar ul li ul li {
         background: #3DA5C0;
     }
 
-    header .navbar ul li ul li a:hover{
+    header .navbar ul li ul li a:hover {
         background: #3DA5C0;
     }
 
-    #menu-bar:checked~ .navbar{
+    #menu-bar:checked~ .navbar {
         display: block;
     }
 }

@@ -157,9 +157,6 @@ footer {
 }
 
 @media only screen and (max-width: 980px) {
-    .calendarHeader {
-        font-size: 0.75em;
-    }
 
     .square-group {
         display: flex;
@@ -169,7 +166,7 @@ footer {
 
     .square-group .square {
         width: 18.75em;
-        height: 12.5em;
+        height: 13.5em;
         margin: 0.63em;
     }
 

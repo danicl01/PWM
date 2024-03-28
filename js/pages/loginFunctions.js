@@ -31,18 +31,19 @@ document.addEventListener("DOMContentLoaded", function() {
         const passwordValue = password.value.trim();
 
         if (emailValue != "" && passwordValue != "") {
+            localStorage.setItem("loggedIn", "true");
             window.location.href = "homePage.html";
         }
     }
 
     function validateForm(event) {
         event.preventDefault();
-        validateInput(email, /^[^\s@]+@[^\s@]+\.[^\s@]+$/, "emailError", "Por favor, introduzca un correo electrónico válido");
+        validateInput(email, /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/, "emailError", "Por favor, introduzca un correo electrónico válido");
         validateInput(password, /^.{8,}$/, "passwordError", "Por favor, ingrese la contraseña válida");
         navigateToHomePage();
     }
 
-    email.addEventListener("blur", () => validateInput(email, /^[^\s@]+@[^\s@]+\.[^\s@]+$/, "emailError", "Por favor, introduzca un correo electrónico válido"));
+    email.addEventListener("blur", () => validateInput(email, /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/, "emailError", "Por favor, introduzca un correo electrónico válido"));
     password.addEventListener("blur", () => validateInput(password, /^.{8,}$/, "passwordError", "Por favor, ingrese la contraseña válida"));
     loginForm.addEventListener("submit", validateForm);
 });
