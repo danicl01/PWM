@@ -78,7 +78,7 @@
     padding: 1em;
 }
 
-.square:hover {
+.square:hover p {
     color:#666666;
 }
 
@@ -99,6 +99,7 @@
 }
 
 .main-zone-2 p {
+    color: black;
     font-size: 1.2vw;
     margin-top: 1em;
     font-weight: bold;

@@ -1,0 +1,23 @@
+{
+    "mainZone1": {
+      "title": "HAMILTON",
+      "description": "¡¡¡Lewis Hamilton a Ferrari en 2025!!!",
+      "image": "../../assets/images/news/hamilton_ferrari.jpg",
+      "link": "mainNewsPage.html"
+    },
+    "articles": [
+      {
+        "title": "NO HAY SUFLÉ",
+        "description": "Aston ni decepciona ni destaca...",
+        "image": "../../assets/images/news/fernando_alonso_pretemporada.jpg",
+        "link": "secondaryNewsPage.html"        
+      },
+      {
+        "title": "¡Comienza la temporada!",
+        "description": "¿Quién podrá ganar el GP de Bahréin?",
+        "image": "../../assets/images/news/parrilla_2024.jpg",
+        "link": "secondaryNewsPage.html"
+      }
+    ]
+  }
+  
